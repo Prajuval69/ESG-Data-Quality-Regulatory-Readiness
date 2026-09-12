@@ -1,0 +1,9 @@
+Exception_Type,Severity,Exception_Count
+Duplicate Record,Medium,6
+Invalid Unit,Medium,5
+Missing Reporting Year,High,2
+Missing Scope,High,1
+Missing Source,Low,4
+Missing Value,High,6
+Negative Emissions,Critical,2
+Outlier,Medium,11

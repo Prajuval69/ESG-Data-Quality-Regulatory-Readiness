@@ -1,0 +1,13 @@
+Company,Industry,Country,Total_Records,Valid_Records,Record_Pass_Rate,Completeness_Pct,Validity_Pct,Consistency_Pct,Traceability_Pct,Data_Quality_Score,Exception_Count,High_Critical_Exception_Count
+Apex Manufacturing,Manufacturing,India,19,14,76.2,75.0,88.7,87.5,100.0,86.0,5,1
+BluePeak Retail,Retail,France,16,9,58.4,66.6,85.0,76.6,91.6,78.4,8,3
+Crescent Finance,Financial Services,Singapore,18,16,88.8,75.0,88.8,100.0,100.0,89.1,2,0
+Everline Consumer Goods,Retail,Netherlands,15,14,92.8,62.5,92.8,100.0,100.0,86.6,1,1
+GreenGrid Energy,Energy,Germany,16,15,94.4,66.6,94.4,94.4,100.0,87.0,2,1
+Northstar Foods,Retail,United Kingdom,24,19,79.4,95.8,91.6,92.3,95.4,93.6,5,1
+Nova Healthcare,Healthcare,Canada,21,19,90.4,87.5,100.0,90.4,100.0,93.8,2,0
+Orion Telecom,Telecommunications,South Korea,19,17,89.4,79.2,95.0,94.4,100.0,90.8,2,1
+Summit Chemicals,Chemicals,United States,19,17,89.4,79.2,95.0,100.0,94.4,91.4,2,0
+TerraBuild Materials,Construction,Australia,16,14,87.3,66.6,94.4,92.8,100.0,86.6,2,1
+UrbanCore Logistics,Logistics,United States,21,18,85.9,83.3,100.0,85.9,100.0,91.5,3,0
+Vertex Electronics,Technology,Japan,17,16,95.0,70.8,100.0,100.0,95.0,90.5,1,0

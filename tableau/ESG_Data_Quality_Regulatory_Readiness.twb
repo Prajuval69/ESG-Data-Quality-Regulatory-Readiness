@@ -1,0 +1,1907 @@
+<?xml version='1.0' encoding='utf-8'?>
+<workbook original-version="18.1" source-build="portfolio" source-platform="win" version="18.1" xmlns:user="http://www.tableausoftware.com/xml/user">
+  <document-format-change-manifest>
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences />
+  <datasources>
+    <datasource caption="Summary" inline="true" name="ds.summary" version="18.1">
+      <connection class="textscan" directory="Data" filename="esg_quality_summary.csv" server="" workgroup-auth-mode="as-is" />
+      <aliases enabled="yes" />
+      <column datatype="string" name="[Scope]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[Total_Records]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Valid_Records]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Record_Pass_Rate]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Completeness_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Validity_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Consistency_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Traceability_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Data_Quality_Score]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Exception_Count]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[High_Critical_Exception_Count]" role="measure" type="quantitative" />
+    </datasource>
+    <datasource caption="Year" inline="true" name="ds.year" version="18.1">
+      <connection class="textscan" directory="Data" filename="tableau_year_summary.csv" server="" workgroup-auth-mode="as-is" />
+      <aliases enabled="yes" />
+      <column datatype="integer" name="[Total_Records]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Valid_Records]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Record_Pass_Rate]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Completeness_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Validity_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Consistency_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Traceability_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Data_Quality_Score]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Exception_Count]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[High_Critical_Exception_Count]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Reporting_Year]" role="measure" type="quantitative" />
+      <column datatype="date" name="[Period_Date]" role="dimension" type="ordinal" />
+    </datasource>
+    <datasource caption="Company" inline="true" name="ds.company" version="18.1">
+      <connection class="textscan" directory="Data" filename="tableau_company_quality.csv" server="" workgroup-auth-mode="as-is" />
+      <aliases enabled="yes" />
+      <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Industry]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Country]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[Total_Records]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Valid_Records]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Record_Pass_Rate]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Completeness_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Validity_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Consistency_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Traceability_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Data_Quality_Score]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Exception_Count]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[High_Critical_Exception_Count]" role="measure" type="quantitative" />
+    </datasource>
+    <datasource caption="Issues" inline="true" name="ds.issues" version="18.1">
+      <connection class="textscan" directory="Data" filename="tableau_issues.csv" server="" workgroup-auth-mode="as-is" />
+      <aliases enabled="yes" />
+      <column datatype="string" name="[Exception_ID]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Record_ID]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Industry]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Country]" role="dimension" type="nominal" />
+      <column datatype="real" name="[Reporting_Year]" role="measure" type="quantitative" />
+      <column datatype="string" name="[ESG_Category]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Metric]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Source_Type]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Rule_ID]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Exception_Type]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Severity]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[Severity_Rank]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Original_Value]" role="measure" type="quantitative" />
+      <column datatype="string" name="[Original_Unit]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Description]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Recommended_Action]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Remediation_Status]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[Exception_Count]" role="measure" type="quantitative" />
+    </datasource>
+    <datasource caption="Completeness" inline="true" name="ds.completeness" version="18.1">
+      <connection class="textscan" directory="Data" filename="tableau_metric_completeness.csv" server="" workgroup-auth-mode="as-is" />
+      <aliases enabled="yes" />
+      <column datatype="string" name="[ESG_Category]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Metric]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[Expected_Company_Years]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Available_Company_Years]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Completeness_Pct]" role="measure" type="quantitative" />
+    </datasource>
+    <datasource caption="Scope" inline="true" name="ds.scope" version="18.1">
+      <connection class="textscan" directory="Data" filename="tableau_scope_completeness.csv" server="" workgroup-auth-mode="as-is" />
+      <aliases enabled="yes" />
+      <column datatype="string" name="[Metric]" role="dimension" type="nominal" />
+      <column datatype="real" name="[Completeness_Pct]" role="measure" type="quantitative" />
+    </datasource>
+    <datasource caption="Readiness Company" inline="true" name="ds.readiness_company" version="18.1">
+      <connection class="textscan" directory="Data" filename="tableau_readiness_company.csv" server="" workgroup-auth-mode="as-is" />
+      <aliases enabled="yes" />
+      <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Industry]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Country]" role="dimension" type="nominal" />
+      <column datatype="real" name="[Readiness_Score]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Regulatory_Coverage_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Data_Quality_Score]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Outstanding_Requirements]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[High_Risk_Gap_Count]" role="measure" type="quantitative" />
+    </datasource>
+    <datasource caption="Readiness" inline="true" name="ds.readiness" version="18.1">
+      <connection class="textscan" directory="Data" filename="tableau_readiness.csv" server="" workgroup-auth-mode="as-is" />
+      <aliases enabled="yes" />
+      <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Industry]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Country]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[Reporting_Year]" role="measure" type="quantitative" />
+      <column datatype="string" name="[Requirement_Area]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Required_Data]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Availability]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[Availability_Flag]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Requirement_Count]" role="measure" type="quantitative" />
+      <column datatype="integer" name="[Gap_Flag]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Regulatory_Coverage_Pct]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Data_Quality_Score]" role="measure" type="quantitative" />
+      <column datatype="real" name="[Readiness_Score]" role="measure" type="quantitative" />
+      <column datatype="string" name="[Gap]" role="dimension" type="nominal" />
+      <column datatype="string" name="[Priority]" role="dimension" type="nominal" />
+      <column datatype="integer" name="[High_Risk_Gap_Count]" role="measure" type="quantitative" />
+      <column datatype="string" name="[Recommended_Action]" role="dimension" type="nominal" />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name="KPI | Data Quality Score">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Summary" name="ds.summary" />
+          </datasources>
+          <datasource-dependencies datasource="ds.summary">
+            <column datatype="real" name="[Data_Quality_Score]" role="measure" type="quantitative" />
+            <column-instance column="[Data_Quality_Score]" derivation="Sum" name="[sum:Data_Quality_Score:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <encodings>
+              <text column="[ds.summary].[sum:Data_Quality_Score:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+            <style>
+              <style-rule element="mark">
+                <format attr="font-size" value="22" />
+                <format attr="font-weight" value="bold" />
+                <format attr="color" value="#17324D" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name="KPI | Completeness">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Summary" name="ds.summary" />
+          </datasources>
+          <datasource-dependencies datasource="ds.summary">
+            <column datatype="real" name="[Completeness_Pct]" role="measure" type="quantitative" />
+            <column-instance column="[Completeness_Pct]" derivation="Sum" name="[sum:Completeness_Pct:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <encodings>
+              <text column="[ds.summary].[sum:Completeness_Pct:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+            <style>
+              <style-rule element="mark">
+                <format attr="font-size" value="22" />
+                <format attr="font-weight" value="bold" />
+                <format attr="color" value="#17324D" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name="KPI | Validity">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Summary" name="ds.summary" />
+          </datasources>
+          <datasource-dependencies datasource="ds.summary">
+            <column datatype="real" name="[Validity_Pct]" role="measure" type="quantitative" />
+            <column-instance column="[Validity_Pct]" derivation="Sum" name="[sum:Validity_Pct:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <encodings>
+              <text column="[ds.summary].[sum:Validity_Pct:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+            <style>
+              <style-rule element="mark">
+                <format attr="font-size" value="22" />
+                <format attr="font-weight" value="bold" />
+                <format attr="color" value="#17324D" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name="KPI | Consistency">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Summary" name="ds.summary" />
+          </datasources>
+          <datasource-dependencies datasource="ds.summary">
+            <column datatype="real" name="[Consistency_Pct]" role="measure" type="quantitative" />
+            <column-instance column="[Consistency_Pct]" derivation="Sum" name="[sum:Consistency_Pct:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <encodings>
+              <text column="[ds.summary].[sum:Consistency_Pct:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+            <style>
+              <style-rule element="mark">
+                <format attr="font-size" value="22" />
+                <format attr="font-weight" value="bold" />
+                <format attr="color" value="#17324D" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name="KPI | Traceability">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Summary" name="ds.summary" />
+          </datasources>
+          <datasource-dependencies datasource="ds.summary">
+            <column datatype="real" name="[Traceability_Pct]" role="measure" type="quantitative" />
+            <column-instance column="[Traceability_Pct]" derivation="Sum" name="[sum:Traceability_Pct:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <encodings>
+              <text column="[ds.summary].[sum:Traceability_Pct:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+            <style>
+              <style-rule element="mark">
+                <format attr="font-size" value="22" />
+                <format attr="font-weight" value="bold" />
+                <format attr="color" value="#17324D" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name="KPI | Records Assessed">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Summary" name="ds.summary" />
+          </datasources>
+          <datasource-dependencies datasource="ds.summary">
+            <column datatype="integer" name="[Total_Records]" role="measure" type="quantitative" />
+            <column-instance column="[Total_Records]" derivation="Sum" name="[sum:Total_Records:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <encodings>
+              <text column="[ds.summary].[sum:Total_Records:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+            <style>
+              <style-rule element="mark">
+                <format attr="font-size" value="22" />
+                <format attr="font-weight" value="bold" />
+                <format attr="color" value="#17324D" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name="KPI | Exceptions">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Summary" name="ds.summary" />
+          </datasources>
+          <datasource-dependencies datasource="ds.summary">
+            <column datatype="integer" name="[Exception_Count]" role="measure" type="quantitative" />
+            <column-instance column="[Exception_Count]" derivation="Sum" name="[sum:Exception_Count:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <encodings>
+              <text column="[ds.summary].[sum:Exception_Count:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+            <style>
+              <style-rule element="mark">
+                <format attr="font-size" value="22" />
+                <format attr="font-weight" value="bold" />
+                <format attr="color" value="#17324D" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name="KPI | High + Critical">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Summary" name="ds.summary" />
+          </datasources>
+          <datasource-dependencies datasource="ds.summary">
+            <column datatype="integer" name="[High_Critical_Exception_Count]" role="measure" type="quantitative" />
+            <column-instance column="[High_Critical_Exception_Count]" derivation="Sum" name="[sum:High_Critical_Exception_Count:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+            <format attr="display-field-labels" scope="cols" value="false" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <encodings>
+              <text column="[ds.summary].[sum:High_Critical_Exception_Count:qk]" />
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true" />
+                <format attr="mark-labels-cull" value="true" />
+              </style-rule>
+            </style>
+            <style>
+              <style-rule element="mark">
+                <format attr="font-size" value="22" />
+                <format attr="font-weight" value="bold" />
+                <format attr="color" value="#17324D" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name="Trend | Data Quality">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Year" name="ds.year" />
+          </datasources>
+          <datasource-dependencies datasource="ds.year">
+            <column aggregation="Sum" datatype="real" default-type="quantitative" layered="true" name="[Data_Quality_Score]" pivot="key" role="measure" type="quantitative" user-datatype="real" visual-totals="Default" />
+            <column aggregation="Year" datatype="date" default-type="ordinal" layered="true" name="[Period_Date]" pivot="key" role="dimension" type="ordinal" user-datatype="date" visual-totals="Default" />
+            <column-instance column="[Period_Date]" derivation="None" name="[none:Period_Date:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Data_Quality_Score]" derivation="Sum" name="[sum:Data_Quality_Score:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Period_Date]" derivation="Day-Trunc" name="[tdy:Period_Date:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="relative-date" column="[ds.year].[none:Period_Date:qk]" first-period="-99" include-future="true" include-null="false" last-period="0" period-type-v2="day" />
+          <slices>
+            <column>[ds.year].[none:Period_Date:qk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <trendline enable-confidence-bands="true" enable-instant-analytics="true" enabled="true" exclude-color="false" exclude-intercept="false" fit="linear" />
+          </pane>
+        </panes>
+        <rows>[ds.year].[sum:Data_Quality_Score:qk]</rows>
+        <cols>[ds.year].[tdy:Period_Date:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Trend | Record Pass Rate">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Year" name="ds.year" />
+          </datasources>
+          <datasource-dependencies datasource="ds.year">
+            <column aggregation="Sum" datatype="real" default-type="quantitative" layered="true" name="[Record_Pass_Rate]" pivot="key" role="measure" type="quantitative" user-datatype="real" visual-totals="Default" />
+            <column aggregation="Year" datatype="date" default-type="ordinal" layered="true" name="[Period_Date]" pivot="key" role="dimension" type="ordinal" user-datatype="date" visual-totals="Default" />
+            <column-instance column="[Period_Date]" derivation="None" name="[none:Period_Date:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Record_Pass_Rate]" derivation="Sum" name="[sum:Record_Pass_Rate:qk]" pivot="key" type="quantitative" />
+            <column-instance column="[Period_Date]" derivation="Day-Trunc" name="[tdy:Period_Date:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <filter class="relative-date" column="[ds.year].[none:Period_Date:qk]" first-period="-99" include-future="true" include-null="false" last-period="0" period-type-v2="day" />
+          <slices>
+            <column>[ds.year].[none:Period_Date:qk]</column>
+          </slices>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <trendline enable-confidence-bands="true" enable-instant-analytics="true" enabled="true" exclude-color="false" exclude-intercept="false" fit="linear" />
+          </pane>
+        </panes>
+        <rows>[ds.year].[sum:Record_Pass_Rate:qk]</rows>
+        <cols>[ds.year].[tdy:Period_Date:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Company | Data Quality">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Company" name="ds.company" />
+          </datasources>
+          <datasource-dependencies datasource="ds.company">
+            <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+            <column datatype="real" name="[Data_Quality_Score]" role="measure" type="quantitative" />
+            <column-instance column="[Company]" derivation="None" name="[none:Company:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Data_Quality_Score]" derivation="Sum" name="[sum:Data_Quality_Score:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[ds.company].[none:Company:nk]" direction="DESC" using="[ds.company].[sum:Data_Quality_Score:qk]" />
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="line-visibility" value="off" />
+            <format attr="title" class="0" field="[ds.company].[sum:Data_Quality_Score:qk]" scope="cols" value="" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="line-visibility" value="off" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+          </pane>
+        </panes>
+        <rows>[ds.company].[none:Company:nk]</rows>
+        <cols>[ds.company].[sum:Data_Quality_Score:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Company | Completeness">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Company" name="ds.company" />
+          </datasources>
+          <datasource-dependencies datasource="ds.company">
+            <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+            <column datatype="real" name="[Completeness_Pct]" role="measure" type="quantitative" />
+            <column-instance column="[Company]" derivation="None" name="[none:Company:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Completeness_Pct]" derivation="Sum" name="[sum:Completeness_Pct:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[ds.company].[none:Company:nk]" direction="DESC" using="[ds.company].[sum:Completeness_Pct:qk]" />
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="line-visibility" value="off" />
+            <format attr="title" class="0" field="[ds.company].[sum:Completeness_Pct:qk]" scope="cols" value="" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="line-visibility" value="off" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+          </pane>
+        </panes>
+        <rows>[ds.company].[none:Company:nk]</rows>
+        <cols>[ds.company].[sum:Completeness_Pct:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Issues | Exception Type">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Issues" name="ds.issues" />
+          </datasources>
+          <datasource-dependencies datasource="ds.issues">
+            <column datatype="string" name="[Exception_Type]" role="dimension" type="nominal" />
+            <column datatype="integer" name="[Exception_Count]" role="measure" type="quantitative" />
+            <column-instance column="[Exception_Type]" derivation="None" name="[none:Exception_Type:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Exception_Count]" derivation="Sum" name="[sum:Exception_Count:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[ds.issues].[none:Exception_Type:nk]" direction="DESC" using="[ds.issues].[sum:Exception_Count:qk]" />
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="line-visibility" value="off" />
+            <format attr="title" class="0" field="[ds.issues].[sum:Exception_Count:qk]" scope="cols" value="" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="line-visibility" value="off" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+          </pane>
+        </panes>
+        <rows>[ds.issues].[none:Exception_Type:nk]</rows>
+        <cols>[ds.issues].[sum:Exception_Count:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Issues | Priority Company">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Issues" name="ds.issues" />
+          </datasources>
+          <datasource-dependencies datasource="ds.issues">
+            <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+            <column datatype="integer" name="[Exception_Count]" role="measure" type="quantitative" />
+            <column-instance column="[Company]" derivation="None" name="[none:Company:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Exception_Count]" derivation="Sum" name="[sum:Exception_Count:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[ds.issues].[none:Company:nk]" direction="DESC" using="[ds.issues].[sum:Exception_Count:qk]" />
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="line-visibility" value="off" />
+            <format attr="title" class="0" field="[ds.issues].[sum:Exception_Count:qk]" scope="cols" value="" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="line-visibility" value="off" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+          </pane>
+        </panes>
+        <rows>[ds.issues].[none:Company:nk]</rows>
+        <cols>[ds.issues].[sum:Exception_Count:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Issues | Severity by Company">
+      <table>
+        <view>
+          <datasources>
+            <datasource name="ds.issues" />
+          </datasources>
+          <datasource-dependencies datasource="ds.issues">
+            <column datatype="string" name="[Severity]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+            <column datatype="integer" name="[Exception_Count]" role="measure" type="quantitative" />
+            <column-instance column="[Severity]" derivation="None" name="[none:Severity:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Company]" derivation="None" name="[none:Company:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Exception_Count]" derivation="Sum" name="[sum:Exception_Count:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort="[ds.issues].[none:Company:nk]" direction="DESC" is-on-innermost-dimension="true" measure-to-sort-by="[ds.issues].[sum:Exception_Count:qk]" shelf="rows" />
+          </shelf-sorts>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="cell">
+            <format attr="height" field="[ds.issues].[none:Company:nk]" value="40" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <encodings>
+              <color column="[ds.issues].[none:Severity:nk]" />
+            </encodings>
+            <style>
+              <style-rule element="pane">
+                <format attr="minheight" value="-1" />
+                <format attr="maxheight" value="-1" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[ds.issues].[none:Company:nk]</rows>
+        <cols>[ds.issues].[sum:Exception_Count:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Coverage | Metric">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Completeness" name="ds.completeness" />
+          </datasources>
+          <datasource-dependencies datasource="ds.completeness">
+            <column datatype="string" name="[Metric]" role="dimension" type="nominal" />
+            <column datatype="real" name="[Completeness_Pct]" role="measure" type="quantitative" />
+            <column-instance column="[Metric]" derivation="None" name="[none:Metric:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Completeness_Pct]" derivation="Sum" name="[sum:Completeness_Pct:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[ds.completeness].[none:Metric:nk]" direction="DESC" using="[ds.completeness].[sum:Completeness_Pct:qk]" />
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="line-visibility" value="off" />
+            <format attr="title" class="0" field="[ds.completeness].[sum:Completeness_Pct:qk]" scope="cols" value="" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="line-visibility" value="off" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+          </pane>
+        </panes>
+        <rows>[ds.completeness].[none:Metric:nk]</rows>
+        <cols>[ds.completeness].[sum:Completeness_Pct:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Coverage | Scope 1 2 3">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Scope" name="ds.scope" />
+          </datasources>
+          <datasource-dependencies datasource="ds.scope">
+            <column datatype="string" name="[Metric]" role="dimension" type="nominal" />
+            <column datatype="real" name="[Completeness_Pct]" role="measure" type="quantitative" />
+            <column-instance column="[Metric]" derivation="None" name="[none:Metric:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Completeness_Pct]" derivation="Sum" name="[sum:Completeness_Pct:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[ds.scope].[none:Metric:nk]" direction="DESC" using="[ds.scope].[sum:Completeness_Pct:qk]" />
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="line-visibility" value="off" />
+            <format attr="title" class="0" field="[ds.scope].[sum:Completeness_Pct:qk]" scope="cols" value="" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="line-visibility" value="off" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Bar" />
+          </pane>
+        </panes>
+        <rows>[ds.scope].[none:Metric:nk]</rows>
+        <cols>[ds.scope].[sum:Completeness_Pct:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Readiness | Company">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Readiness Company" name="ds.readiness_company" />
+          </datasources>
+          <datasource-dependencies datasource="ds.readiness_company">
+            <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+            <column datatype="real" name="[Readiness_Score]" role="measure" type="quantitative" />
+            <column-instance column="[Company]" derivation="None" name="[none:Company:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Readiness_Score]" derivation="Sum" name="[sum:Readiness_Score:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[ds.readiness_company].[none:Company:nk]" direction="DESC" using="[ds.readiness_company].[sum:Readiness_Score:qk]" />
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="line-visibility" value="off" />
+            <format attr="title" class="0" field="[ds.readiness_company].[sum:Readiness_Score:qk]" scope="cols" value="" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="line-visibility" value="off" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+          </pane>
+        </panes>
+        <rows>[ds.readiness_company].[none:Company:nk]</rows>
+        <cols>[ds.readiness_company].[sum:Readiness_Score:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Readiness | Outstanding Requirements">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Readiness Company" name="ds.readiness_company" />
+          </datasources>
+          <datasource-dependencies datasource="ds.readiness_company">
+            <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+            <column datatype="integer" name="[Outstanding_Requirements]" role="measure" type="quantitative" />
+            <column-instance column="[Company]" derivation="None" name="[none:Company:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Outstanding_Requirements]" derivation="Sum" name="[sum:Outstanding_Requirements:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[ds.readiness_company].[none:Company:nk]" direction="DESC" using="[ds.readiness_company].[sum:Outstanding_Requirements:qk]" />
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="line-visibility" value="off" />
+            <format attr="title" class="0" field="[ds.readiness_company].[sum:Outstanding_Requirements:qk]" scope="cols" value="" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="line-visibility" value="off" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+          </pane>
+        </panes>
+        <rows>[ds.readiness_company].[none:Company:nk]</rows>
+        <cols>[ds.readiness_company].[sum:Outstanding_Requirements:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Readiness | High Risk Gaps">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Readiness Company" name="ds.readiness_company" />
+          </datasources>
+          <datasource-dependencies datasource="ds.readiness_company">
+            <column datatype="string" name="[Company]" role="dimension" type="nominal" />
+            <column datatype="integer" name="[High_Risk_Gap_Count]" role="measure" type="quantitative" />
+            <column-instance column="[Company]" derivation="None" name="[none:Company:nk]" pivot="key" type="nominal" />
+            <column-instance column="[High_Risk_Gap_Count]" derivation="Sum" name="[sum:High_Risk_Gap_Count:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <computed-sort column="[ds.readiness_company].[none:Company:nk]" direction="DESC" using="[ds.readiness_company].[sum:High_Risk_Gap_Count:qk]" />
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="line-visibility" value="off" />
+            <format attr="title" class="0" field="[ds.readiness_company].[sum:High_Risk_Gap_Count:qk]" scope="cols" value="" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="display-field-labels" scope="rows" value="false" />
+          </style-rule>
+          <style-rule element="zeroline">
+            <format attr="line-visibility" value="off" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+          </pane>
+        </panes>
+        <rows>[ds.readiness_company].[none:Company:nk]</rows>
+        <cols>[ds.readiness_company].[sum:High_Risk_Gap_Count:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name="Readiness | Requirement Status">
+      <table>
+        <view>
+          <datasources>
+            <datasource name="ds.readiness" />
+          </datasources>
+          <datasource-dependencies datasource="ds.readiness">
+            <column datatype="string" name="[Availability]" role="dimension" type="nominal" />
+            <column datatype="string" name="[Requirement_Area]" role="dimension" type="nominal" />
+            <column datatype="integer" name="[Requirement_Count]" role="measure" type="quantitative" />
+            <column-instance column="[Availability]" derivation="None" name="[none:Availability:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Requirement_Area]" derivation="None" name="[none:Requirement_Area:nk]" pivot="key" type="nominal" />
+            <column-instance column="[Requirement_Count]" derivation="Sum" name="[sum:Requirement_Count:qk]" pivot="key" type="quantitative" />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort="[ds.readiness].[none:Requirement_Area:nk]" direction="DESC" is-on-innermost-dimension="true" measure-to-sort-by="[ds.readiness].[sum:Requirement_Count:qk]" shelf="rows" />
+          </shelf-sorts>
+          <aggregation value="true" />
+        </view>
+        <style>
+          <style-rule element="cell">
+            <format attr="height" field="[ds.readiness].[none:Requirement_Area:nk]" value="40" />
+          </style-rule>
+          <style-rule element="worksheet">
+            <format attr="background-color" value="#FFFFFF" />
+            <format attr="font-face" value="Tableau Book" />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto" />
+            </view>
+            <mark class="Automatic" />
+            <encodings>
+              <color column="[ds.readiness].[none:Availability:nk]" />
+            </encodings>
+            <style>
+              <style-rule element="pane">
+                <format attr="minheight" value="-1" />
+                <format attr="maxheight" value="-1" />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[ds.readiness].[none:Requirement_Area:nk]</rows>
+        <cols>[ds.readiness].[sum:Requirement_Count:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name="01 | Executive Data Quality Overview">
+      <size sizing-mode="fixed" minwidth="1200" maxwidth="1200" minheight="800" maxheight="800" />
+      <zones>
+        <zone id="2" x="0" y="0" w="1200" h="800" type-v2="layout-basic" layout-strategy-id="basic">
+          <zone id="3" x="0" y="0" w="1200" h="48" type-v2="title" />
+          <zone id="4" x="0" y="48" w="200" h="130" type-v2="visual" name="KPI | Data Quality Score">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="5" x="200" y="48" w="200" h="130" type-v2="visual" name="KPI | Completeness">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="6" x="400" y="48" w="200" h="130" type-v2="visual" name="KPI | Validity">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="7" x="600" y="48" w="200" h="130" type-v2="visual" name="KPI | Consistency">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="8" x="800" y="48" w="200" h="130" type-v2="visual" name="KPI | Traceability">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="9" x="1000" y="48" w="200" h="130" type-v2="visual" name="KPI | Records Assessed">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="10" x="0" y="178" w="560" h="300" type-v2="visual" name="Trend | Data Quality">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="11" x="560" y="178" w="640" h="300" type-v2="visual" name="Company | Data Quality">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="12" x="0" y="478" w="300" h="322" type-v2="visual" name="KPI | Exceptions">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="13" x="300" y="478" w="300" h="322" type-v2="visual" name="KPI | High + Critical">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="14" x="600" y="478" w="600" h="322" type-v2="visual" name="Trend | Record Pass Rate">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+        </zone>
+      </zones>
+    </dashboard>
+    <dashboard name="02 | Data Quality Analysis">
+      <size sizing-mode="fixed" minwidth="1200" maxwidth="1200" minheight="800" maxheight="800" />
+      <zones>
+        <zone id="15" x="0" y="0" w="1200" h="800" type-v2="layout-basic" layout-strategy-id="basic">
+          <zone id="16" x="0" y="0" w="1200" h="48" type-v2="title" />
+          <zone id="17" x="0" y="48" w="600" h="350" type-v2="visual" name="Company | Data Quality">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="18" x="600" y="48" w="600" h="350" type-v2="visual" name="Issues | Exception Type">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="19" x="0" y="398" w="800" h="402" type-v2="visual" name="Coverage | Metric">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="20" x="800" y="398" w="400" h="402" type-v2="visual" name="Coverage | Scope 1 2 3">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+        </zone>
+      </zones>
+    </dashboard>
+    <dashboard name="03 | Regulatory Readiness">
+      <size sizing-mode="fixed" minwidth="1200" maxwidth="1200" minheight="800" maxheight="800" />
+      <zones>
+        <zone id="21" x="0" y="0" w="1200" h="800" type-v2="layout-basic" layout-strategy-id="basic">
+          <zone id="22" x="0" y="0" w="1200" h="48" type-v2="title" />
+          <zone id="23" x="0" y="48" w="600" h="360" type-v2="visual" name="Readiness | Company">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="24" x="600" y="48" w="600" h="360" type-v2="visual" name="Readiness | Requirement Status">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="25" x="0" y="408" w="600" h="392" type-v2="visual" name="Readiness | Outstanding Requirements">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="26" x="600" y="408" w="600" h="392" type-v2="visual" name="Readiness | High Risk Gaps">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+        </zone>
+      </zones>
+    </dashboard>
+    <dashboard name="04 | Exceptions and Remediation">
+      <size sizing-mode="fixed" minwidth="1200" maxwidth="1200" minheight="800" maxheight="800" />
+      <zones>
+        <zone id="27" x="0" y="0" w="1200" h="800" type-v2="layout-basic" layout-strategy-id="basic">
+          <zone id="28" x="0" y="0" w="1200" h="48" type-v2="title" />
+          <zone id="29" x="0" y="48" w="300" h="160" type-v2="visual" name="KPI | Exceptions">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="30" x="300" y="48" w="300" h="160" type-v2="visual" name="KPI | High + Critical">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="31" x="600" y="48" w="600" h="320" type-v2="visual" name="Issues | Exception Type">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="32" x="0" y="208" w="600" h="592" type-v2="visual" name="Issues | Severity by Company">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+          <zone id="33" x="600" y="368" w="600" h="432" type-v2="visual" name="Issues | Priority Company">
+            <zone-style>
+              <format attr="border-color" value="#DCE3EA" />
+              <format attr="border-style" value="solid" />
+              <format attr="border-width" value="1" />
+              <format attr="margin" value="6" />
+            </zone-style>
+          </zone>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows>
+    <window class="worksheet" name="KPI | Data Quality Score">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{9B58F5F6-BE96-51B6-B4A4-CD0F7F6D6CE9}" />
+    </window>
+    <window class="worksheet" name="KPI | Completeness">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{CC893932-3303-58D4-BCD5-6479069C86EA}" />
+    </window>
+    <window class="worksheet" name="KPI | Validity">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{01448A7D-44A3-5851-B7FD-68AB637C791B}" />
+    </window>
+    <window class="worksheet" name="KPI | Consistency">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{2F8E41C9-F86B-5136-8EFD-80746D484C58}" />
+    </window>
+    <window class="worksheet" name="KPI | Traceability">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{6261F5D5-7D8B-55CE-B23A-0638DDD75650}" />
+    </window>
+    <window class="worksheet" name="KPI | Records Assessed">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{49B547E4-2F3B-54AD-BDBA-B28B95FD0CF1}" />
+    </window>
+    <window class="worksheet" name="KPI | Exceptions">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{1F84CC43-DAEF-56B0-BA5C-37FA6C59C080}" />
+    </window>
+    <window class="worksheet" name="KPI | High + Critical">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{2659CE7B-3840-5C02-9344-8EE1D4F55613}" />
+    </window>
+    <window class="worksheet" name="Trend | Data Quality">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+    </viewpoint>
+      <simple-id uuid="{5691EAEE-379D-5BA9-B8B5-085B2D6F597D}" />
+    </window>
+    <window class="worksheet" name="Trend | Record Pass Rate">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+    </viewpoint>
+      <simple-id uuid="{D5CBE75B-A783-55D5-8269-BBA4E78B8BB2}" />
+    </window>
+    <window class="worksheet" name="Company | Data Quality">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{B9D3202C-B0D2-5B20-9DE6-13D07C4F6F99}" />
+    </window>
+    <window class="worksheet" name="Company | Completeness">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{7C1D3F2B-7DB8-5700-8764-B2C338782E42}" />
+    </window>
+    <window class="worksheet" name="Issues | Exception Type">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{DDAFE4FE-86D3-578C-9DED-DDE7AF4625DA}" />
+    </window>
+    <window class="worksheet" name="Issues | Priority Company">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{40599DA9-304E-51DF-A6C1-CB6FA9451CD0}" />
+    </window>
+    <window class="worksheet" name="Issues | Severity by Company">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{7506A28C-3290-58A4-8ED9-686CB2D7B240}" />
+    </window>
+    <window class="worksheet" name="Coverage | Metric">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{943F6D4E-436D-50B4-A1EA-27FC454CD4B4}" />
+    </window>
+    <window class="worksheet" name="Coverage | Scope 1 2 3">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{9C650CD1-D3C0-5A13-B7AA-294BB540BA37}" />
+    </window>
+    <window class="worksheet" name="Readiness | Company">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{BABF0A7C-26BA-5C60-AAE1-68704D182987}" />
+    </window>
+    <window class="worksheet" name="Readiness | Outstanding Requirements">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{36AD7C96-FA30-5C53-BB7A-33AC78320C23}" />
+    </window>
+    <window class="worksheet" name="Readiness | High Risk Gaps">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{E3655034-2BC3-57A6-9E99-951CE7A14C9B}" />
+    </window>
+    <window class="worksheet" name="Readiness | Requirement Status">
+      <cards>
+        <edge name="left">
+          <strip size="160">
+            <card type="pages" />
+            <card type="filters" />
+            <card type="marks" />
+          </strip>
+        </edge>
+        <edge name="top">
+          <strip size="2147483647">
+            <card type="columns" />
+          </strip>
+          <strip size="2147483647">
+            <card type="rows" />
+          </strip>
+          <strip size="31">
+            <card type="title" />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type="entire-view" />
+      </viewpoint>
+      <simple-id uuid="{9FD7D9FB-4EA2-51BD-9804-8C6314E1C9D8}" />
+    </window>
+    <window class="dashboard" maximized="true" name="01 | Executive Data Quality Overview">
+      <viewpoints>
+        <viewpoint name="KPI | Data Quality Score" />
+        <viewpoint name="KPI | Completeness" />
+        <viewpoint name="KPI | Validity" />
+        <viewpoint name="KPI | Consistency" />
+        <viewpoint name="KPI | Traceability" />
+        <viewpoint name="KPI | Records Assessed" />
+        <viewpoint name="Trend | Data Quality" />
+        <viewpoint name="Company | Data Quality" />
+        <viewpoint name="KPI | Exceptions" />
+        <viewpoint name="KPI | High + Critical" />
+        <viewpoint name="Trend | Record Pass Rate" />
+      </viewpoints>
+      <active id="-1" />
+    </window>
+    <window class="dashboard" maximized="true" name="02 | Data Quality Analysis">
+      <viewpoints>
+        <viewpoint name="Company | Data Quality" />
+        <viewpoint name="Issues | Exception Type" />
+        <viewpoint name="Coverage | Metric" />
+        <viewpoint name="Coverage | Scope 1 2 3" />
+      </viewpoints>
+      <active id="-1" />
+    </window>
+    <window class="dashboard" maximized="true" name="03 | Regulatory Readiness">
+      <viewpoints>
+        <viewpoint name="Readiness | Company" />
+        <viewpoint name="Readiness | Requirement Status" />
+        <viewpoint name="Readiness | Outstanding Requirements" />
+        <viewpoint name="Readiness | High Risk Gaps" />
+      </viewpoints>
+      <active id="-1" />
+    </window>
+    <window class="dashboard" maximized="true" name="04 | Exceptions and Remediation">
+      <viewpoints>
+        <viewpoint name="KPI | Exceptions" />
+        <viewpoint name="KPI | High + Critical" />
+        <viewpoint name="Issues | Exception Type" />
+        <viewpoint name="Issues | Severity by Company" />
+        <viewpoint name="Issues | Priority Company" />
+      </viewpoints>
+      <active id="-1" />
+    </window>
+  </windows>
+</workbook>

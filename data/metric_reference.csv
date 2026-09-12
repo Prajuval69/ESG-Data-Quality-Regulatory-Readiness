@@ -1,0 +1,13 @@
+Metric,ESG_Category,Expected_Unit,Expected_Scope,Required_Flag,Valid_Min,Valid_Max
+Scope 1 Emissions,Climate,tCO2e,Emissions,True,0.0,80000.0
+Scope 2 Emissions,Climate,tCO2e,Emissions,True,0.0,70000.0
+Scope 3 Emissions,Climate,tCO2e,Emissions,True,0.0,250000.0
+Energy Consumption,Energy,MWh,N/A,True,0.0,900000.0
+Renewable Energy Consumption,Energy,MWh,N/A,True,0.0,500000.0
+Emissions Reduction Target,Climate Strategy,%,Emissions,True,0.0,100.0
+Net Zero Target,Climate Strategy,Yes/No,N/A,True,,
+Water Consumption,Water,ML,N/A,True,0.0,5000.0
+Waste Generated,Waste,tonnes,N/A,True,0.0,30000.0
+Waste Recycled,Waste,tonnes,N/A,True,0.0,30000.0
+Employee Turnover,Workforce / ESG,%,N/A,True,0.0,100.0
+Workforce Training Hours,Workforce / ESG,hours,N/A,True,0.0,200.0

@@ -1,0 +1,13 @@
+Company,Industry,Country,Readiness_Score,Regulatory_Coverage_Pct,Data_Quality_Score,Outstanding_Requirements,High_Risk_Gap_Count
+Apex Manufacturing,Manufacturing,India,76.4,72.2,86.0,5,2
+BluePeak Retail,Retail,France,62.4,55.6,78.4,8,3
+Crescent Finance,Financial Services,Singapore,81.2,77.8,89.1,4,3
+Everline Consumer Goods,Retail,Netherlands,72.6,66.7,86.6,6,2
+GreenGrid Energy,Energy,Germany,68.8,61.2,87.0,7,2
+Northstar Foods,Retail,United Kingdom,98.0,100.0,93.6,0,0
+Nova Healthcare,Healthcare,Canada,86.5,83.4,93.8,3,1
+Orion Telecom,Telecommunications,South Korea,77.8,72.2,90.8,5,2
+Summit Chemicals,Chemicals,United States,89.6,88.9,91.4,2,2
+TerraBuild Materials,Construction,Australia,72.6,66.6,86.6,6,2
+UrbanCore Logistics,Logistics,United States,81.9,77.8,91.5,4,2
+Vertex Electronics,Technology,Japan,73.8,66.7,90.5,6,3

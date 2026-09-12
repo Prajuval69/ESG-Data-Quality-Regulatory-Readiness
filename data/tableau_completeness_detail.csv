@@ -1,0 +1,289 @@
+Company,Industry,Country,Reporting_Year,ESG_Category,Metric,Availability_Flag,Availability
+Apex Manufacturing,Manufacturing,India,2024,Climate,Scope 1 Emissions,1,Available
+Apex Manufacturing,Manufacturing,India,2024,Climate,Scope 2 Emissions,1,Available
+Apex Manufacturing,Manufacturing,India,2024,Climate,Scope 3 Emissions,1,Available
+Apex Manufacturing,Manufacturing,India,2024,Energy,Energy Consumption,1,Available
+Apex Manufacturing,Manufacturing,India,2024,Energy,Renewable Energy Consumption,1,Available
+Apex Manufacturing,Manufacturing,India,2024,Climate Strategy,Emissions Reduction Target,1,Available
+Apex Manufacturing,Manufacturing,India,2024,Climate Strategy,Net Zero Target,1,Available
+Apex Manufacturing,Manufacturing,India,2024,Water,Water Consumption,1,Available
+Apex Manufacturing,Manufacturing,India,2024,Waste,Waste Generated,0,Missing
+Apex Manufacturing,Manufacturing,India,2024,Waste,Waste Recycled,1,Available
+Apex Manufacturing,Manufacturing,India,2024,Workforce / ESG,Employee Turnover,1,Available
+Apex Manufacturing,Manufacturing,India,2024,Workforce / ESG,Workforce Training Hours,1,Available
+Apex Manufacturing,Manufacturing,India,2025,Climate,Scope 1 Emissions,1,Available
+Apex Manufacturing,Manufacturing,India,2025,Climate,Scope 2 Emissions,0,Missing
+Apex Manufacturing,Manufacturing,India,2025,Climate,Scope 3 Emissions,0,Missing
+Apex Manufacturing,Manufacturing,India,2025,Energy,Energy Consumption,1,Available
+Apex Manufacturing,Manufacturing,India,2025,Energy,Renewable Energy Consumption,1,Available
+Apex Manufacturing,Manufacturing,India,2025,Climate Strategy,Emissions Reduction Target,0,Missing
+Apex Manufacturing,Manufacturing,India,2025,Climate Strategy,Net Zero Target,1,Available
+Apex Manufacturing,Manufacturing,India,2025,Water,Water Consumption,1,Available
+Apex Manufacturing,Manufacturing,India,2025,Waste,Waste Generated,0,Missing
+Apex Manufacturing,Manufacturing,India,2025,Waste,Waste Recycled,0,Missing
+Apex Manufacturing,Manufacturing,India,2025,Workforce / ESG,Employee Turnover,1,Available
+Apex Manufacturing,Manufacturing,India,2025,Workforce / ESG,Workforce Training Hours,1,Available
+BluePeak Retail,Retail,France,2024,Climate,Scope 1 Emissions,1,Available
+BluePeak Retail,Retail,France,2024,Climate,Scope 2 Emissions,1,Available
+BluePeak Retail,Retail,France,2024,Climate,Scope 3 Emissions,1,Available
+BluePeak Retail,Retail,France,2024,Energy,Energy Consumption,0,Missing
+BluePeak Retail,Retail,France,2024,Energy,Renewable Energy Consumption,1,Available
+BluePeak Retail,Retail,France,2024,Climate Strategy,Emissions Reduction Target,1,Available
+BluePeak Retail,Retail,France,2024,Climate Strategy,Net Zero Target,1,Available
+BluePeak Retail,Retail,France,2024,Water,Water Consumption,1,Available
+BluePeak Retail,Retail,France,2024,Waste,Waste Generated,0,Missing
+BluePeak Retail,Retail,France,2024,Waste,Waste Recycled,1,Available
+BluePeak Retail,Retail,France,2024,Workforce / ESG,Employee Turnover,1,Available
+BluePeak Retail,Retail,France,2024,Workforce / ESG,Workforce Training Hours,1,Available
+BluePeak Retail,Retail,France,2025,Climate,Scope 1 Emissions,0,Missing
+BluePeak Retail,Retail,France,2025,Climate,Scope 2 Emissions,0,Missing
+BluePeak Retail,Retail,France,2025,Climate,Scope 3 Emissions,0,Missing
+BluePeak Retail,Retail,France,2025,Energy,Energy Consumption,0,Missing
+BluePeak Retail,Retail,France,2025,Energy,Renewable Energy Consumption,0,Missing
+BluePeak Retail,Retail,France,2025,Climate Strategy,Emissions Reduction Target,1,Available
+BluePeak Retail,Retail,France,2025,Climate Strategy,Net Zero Target,1,Available
+BluePeak Retail,Retail,France,2025,Water,Water Consumption,0,Missing
+BluePeak Retail,Retail,France,2025,Waste,Waste Generated,1,Available
+BluePeak Retail,Retail,France,2025,Waste,Waste Recycled,1,Available
+BluePeak Retail,Retail,France,2025,Workforce / ESG,Employee Turnover,1,Available
+BluePeak Retail,Retail,France,2025,Workforce / ESG,Workforce Training Hours,1,Available
+Crescent Finance,Financial Services,Singapore,2024,Climate,Scope 1 Emissions,1,Available
+Crescent Finance,Financial Services,Singapore,2024,Climate,Scope 2 Emissions,0,Missing
+Crescent Finance,Financial Services,Singapore,2024,Climate,Scope 3 Emissions,0,Missing
+Crescent Finance,Financial Services,Singapore,2024,Energy,Energy Consumption,1,Available
+Crescent Finance,Financial Services,Singapore,2024,Energy,Renewable Energy Consumption,1,Available
+Crescent Finance,Financial Services,Singapore,2024,Climate Strategy,Emissions Reduction Target,1,Available
+Crescent Finance,Financial Services,Singapore,2024,Climate Strategy,Net Zero Target,1,Available
+Crescent Finance,Financial Services,Singapore,2024,Water,Water Consumption,1,Available
+Crescent Finance,Financial Services,Singapore,2024,Waste,Waste Generated,1,Available
+Crescent Finance,Financial Services,Singapore,2024,Waste,Waste Recycled,0,Missing
+Crescent Finance,Financial Services,Singapore,2024,Workforce / ESG,Employee Turnover,1,Available
+Crescent Finance,Financial Services,Singapore,2024,Workforce / ESG,Workforce Training Hours,0,Missing
+Crescent Finance,Financial Services,Singapore,2025,Climate,Scope 1 Emissions,1,Available
+Crescent Finance,Financial Services,Singapore,2025,Climate,Scope 2 Emissions,1,Available
+Crescent Finance,Financial Services,Singapore,2025,Climate,Scope 3 Emissions,0,Missing
+Crescent Finance,Financial Services,Singapore,2025,Energy,Energy Consumption,0,Missing
+Crescent Finance,Financial Services,Singapore,2025,Energy,Renewable Energy Consumption,1,Available
+Crescent Finance,Financial Services,Singapore,2025,Climate Strategy,Emissions Reduction Target,1,Available
+Crescent Finance,Financial Services,Singapore,2025,Climate Strategy,Net Zero Target,1,Available
+Crescent Finance,Financial Services,Singapore,2025,Water,Water Consumption,1,Available
+Crescent Finance,Financial Services,Singapore,2025,Waste,Waste Generated,1,Available
+Crescent Finance,Financial Services,Singapore,2025,Waste,Waste Recycled,1,Available
+Crescent Finance,Financial Services,Singapore,2025,Workforce / ESG,Employee Turnover,1,Available
+Crescent Finance,Financial Services,Singapore,2025,Workforce / ESG,Workforce Training Hours,1,Available
+Everline Consumer Goods,Retail,Netherlands,2024,Climate,Scope 1 Emissions,0,Missing
+Everline Consumer Goods,Retail,Netherlands,2024,Climate,Scope 2 Emissions,1,Available
+Everline Consumer Goods,Retail,Netherlands,2024,Climate,Scope 3 Emissions,0,Missing
+Everline Consumer Goods,Retail,Netherlands,2024,Energy,Energy Consumption,1,Available
+Everline Consumer Goods,Retail,Netherlands,2024,Energy,Renewable Energy Consumption,1,Available
+Everline Consumer Goods,Retail,Netherlands,2024,Climate Strategy,Emissions Reduction Target,0,Missing
+Everline Consumer Goods,Retail,Netherlands,2024,Climate Strategy,Net Zero Target,1,Available
+Everline Consumer Goods,Retail,Netherlands,2024,Water,Water Consumption,1,Available
+Everline Consumer Goods,Retail,Netherlands,2024,Waste,Waste Generated,0,Missing
+Everline Consumer Goods,Retail,Netherlands,2024,Waste,Waste Recycled,1,Available
+Everline Consumer Goods,Retail,Netherlands,2024,Workforce / ESG,Employee Turnover,0,Missing
+Everline Consumer Goods,Retail,Netherlands,2024,Workforce / ESG,Workforce Training Hours,1,Available
+Everline Consumer Goods,Retail,Netherlands,2025,Climate,Scope 1 Emissions,1,Available
+Everline Consumer Goods,Retail,Netherlands,2025,Climate,Scope 2 Emissions,1,Available
+Everline Consumer Goods,Retail,Netherlands,2025,Climate,Scope 3 Emissions,1,Available
+Everline Consumer Goods,Retail,Netherlands,2025,Energy,Energy Consumption,1,Available
+Everline Consumer Goods,Retail,Netherlands,2025,Energy,Renewable Energy Consumption,1,Available
+Everline Consumer Goods,Retail,Netherlands,2025,Climate Strategy,Emissions Reduction Target,0,Missing
+Everline Consumer Goods,Retail,Netherlands,2025,Climate Strategy,Net Zero Target,0,Missing
+Everline Consumer Goods,Retail,Netherlands,2025,Water,Water Consumption,1,Available
+Everline Consumer Goods,Retail,Netherlands,2025,Waste,Waste Generated,1,Available
+Everline Consumer Goods,Retail,Netherlands,2025,Waste,Waste Recycled,1,Available
+Everline Consumer Goods,Retail,Netherlands,2025,Workforce / ESG,Employee Turnover,0,Missing
+Everline Consumer Goods,Retail,Netherlands,2025,Workforce / ESG,Workforce Training Hours,0,Missing
+GreenGrid Energy,Energy,Germany,2024,Climate,Scope 1 Emissions,1,Available
+GreenGrid Energy,Energy,Germany,2024,Climate,Scope 2 Emissions,0,Missing
+GreenGrid Energy,Energy,Germany,2024,Climate,Scope 3 Emissions,1,Available
+GreenGrid Energy,Energy,Germany,2024,Energy,Energy Consumption,0,Missing
+GreenGrid Energy,Energy,Germany,2024,Energy,Renewable Energy Consumption,1,Available
+GreenGrid Energy,Energy,Germany,2024,Climate Strategy,Emissions Reduction Target,0,Missing
+GreenGrid Energy,Energy,Germany,2024,Climate Strategy,Net Zero Target,1,Available
+GreenGrid Energy,Energy,Germany,2024,Water,Water Consumption,0,Missing
+GreenGrid Energy,Energy,Germany,2024,Waste,Waste Generated,1,Available
+GreenGrid Energy,Energy,Germany,2024,Waste,Waste Recycled,1,Available
+GreenGrid Energy,Energy,Germany,2024,Workforce / ESG,Employee Turnover,1,Available
+GreenGrid Energy,Energy,Germany,2024,Workforce / ESG,Workforce Training Hours,0,Missing
+GreenGrid Energy,Energy,Germany,2025,Climate,Scope 1 Emissions,0,Missing
+GreenGrid Energy,Energy,Germany,2025,Climate,Scope 2 Emissions,1,Available
+GreenGrid Energy,Energy,Germany,2025,Climate,Scope 3 Emissions,1,Available
+GreenGrid Energy,Energy,Germany,2025,Energy,Energy Consumption,1,Available
+GreenGrid Energy,Energy,Germany,2025,Energy,Renewable Energy Consumption,0,Missing
+GreenGrid Energy,Energy,Germany,2025,Climate Strategy,Emissions Reduction Target,1,Available
+GreenGrid Energy,Energy,Germany,2025,Climate Strategy,Net Zero Target,1,Available
+GreenGrid Energy,Energy,Germany,2025,Water,Water Consumption,0,Missing
+GreenGrid Energy,Energy,Germany,2025,Waste,Waste Generated,1,Available
+GreenGrid Energy,Energy,Germany,2025,Waste,Waste Recycled,1,Available
+GreenGrid Energy,Energy,Germany,2025,Workforce / ESG,Employee Turnover,1,Available
+GreenGrid Energy,Energy,Germany,2025,Workforce / ESG,Workforce Training Hours,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Climate,Scope 1 Emissions,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Climate,Scope 2 Emissions,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Climate,Scope 3 Emissions,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Energy,Energy Consumption,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Energy,Renewable Energy Consumption,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Climate Strategy,Emissions Reduction Target,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Climate Strategy,Net Zero Target,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Water,Water Consumption,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Waste,Waste Generated,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Waste,Waste Recycled,0,Missing
+Northstar Foods,Retail,United Kingdom,2024,Workforce / ESG,Employee Turnover,1,Available
+Northstar Foods,Retail,United Kingdom,2024,Workforce / ESG,Workforce Training Hours,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Climate,Scope 1 Emissions,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Climate,Scope 2 Emissions,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Climate,Scope 3 Emissions,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Energy,Energy Consumption,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Energy,Renewable Energy Consumption,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Climate Strategy,Emissions Reduction Target,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Climate Strategy,Net Zero Target,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Water,Water Consumption,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Waste,Waste Generated,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Waste,Waste Recycled,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Workforce / ESG,Employee Turnover,1,Available
+Northstar Foods,Retail,United Kingdom,2025,Workforce / ESG,Workforce Training Hours,1,Available
+Nova Healthcare,Healthcare,Canada,2024,Climate,Scope 1 Emissions,1,Available
+Nova Healthcare,Healthcare,Canada,2024,Climate,Scope 2 Emissions,1,Available
+Nova Healthcare,Healthcare,Canada,2024,Climate,Scope 3 Emissions,1,Available
+Nova Healthcare,Healthcare,Canada,2024,Energy,Energy Consumption,1,Available
+Nova Healthcare,Healthcare,Canada,2024,Energy,Renewable Energy Consumption,0,Missing
+Nova Healthcare,Healthcare,Canada,2024,Climate Strategy,Emissions Reduction Target,1,Available
+Nova Healthcare,Healthcare,Canada,2024,Climate Strategy,Net Zero Target,1,Available
+Nova Healthcare,Healthcare,Canada,2024,Water,Water Consumption,0,Missing
+Nova Healthcare,Healthcare,Canada,2024,Waste,Waste Generated,1,Available
+Nova Healthcare,Healthcare,Canada,2024,Waste,Waste Recycled,1,Available
+Nova Healthcare,Healthcare,Canada,2024,Workforce / ESG,Employee Turnover,1,Available
+Nova Healthcare,Healthcare,Canada,2024,Workforce / ESG,Workforce Training Hours,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Climate,Scope 1 Emissions,0,Missing
+Nova Healthcare,Healthcare,Canada,2025,Climate,Scope 2 Emissions,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Climate,Scope 3 Emissions,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Energy,Energy Consumption,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Energy,Renewable Energy Consumption,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Climate Strategy,Emissions Reduction Target,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Climate Strategy,Net Zero Target,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Water,Water Consumption,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Waste,Waste Generated,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Waste,Waste Recycled,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Workforce / ESG,Employee Turnover,1,Available
+Nova Healthcare,Healthcare,Canada,2025,Workforce / ESG,Workforce Training Hours,1,Available
+Orion Telecom,Telecommunications,South Korea,2024,Climate,Scope 1 Emissions,0,Missing
+Orion Telecom,Telecommunications,South Korea,2024,Climate,Scope 2 Emissions,1,Available
+Orion Telecom,Telecommunications,South Korea,2024,Climate,Scope 3 Emissions,1,Available
+Orion Telecom,Telecommunications,South Korea,2024,Energy,Energy Consumption,1,Available
+Orion Telecom,Telecommunications,South Korea,2024,Energy,Renewable Energy Consumption,1,Available
+Orion Telecom,Telecommunications,South Korea,2024,Climate Strategy,Emissions Reduction Target,1,Available
+Orion Telecom,Telecommunications,South Korea,2024,Climate Strategy,Net Zero Target,1,Available
+Orion Telecom,Telecommunications,South Korea,2024,Water,Water Consumption,0,Missing
+Orion Telecom,Telecommunications,South Korea,2024,Waste,Waste Generated,1,Available
+Orion Telecom,Telecommunications,South Korea,2024,Waste,Waste Recycled,1,Available
+Orion Telecom,Telecommunications,South Korea,2024,Workforce / ESG,Employee Turnover,1,Available
+Orion Telecom,Telecommunications,South Korea,2024,Workforce / ESG,Workforce Training Hours,1,Available
+Orion Telecom,Telecommunications,South Korea,2025,Climate,Scope 1 Emissions,1,Available
+Orion Telecom,Telecommunications,South Korea,2025,Climate,Scope 2 Emissions,0,Missing
+Orion Telecom,Telecommunications,South Korea,2025,Climate,Scope 3 Emissions,1,Available
+Orion Telecom,Telecommunications,South Korea,2025,Energy,Energy Consumption,1,Available
+Orion Telecom,Telecommunications,South Korea,2025,Energy,Renewable Energy Consumption,0,Missing
+Orion Telecom,Telecommunications,South Korea,2025,Climate Strategy,Emissions Reduction Target,0,Missing
+Orion Telecom,Telecommunications,South Korea,2025,Climate Strategy,Net Zero Target,1,Available
+Orion Telecom,Telecommunications,South Korea,2025,Water,Water Consumption,1,Available
+Orion Telecom,Telecommunications,South Korea,2025,Waste,Waste Generated,1,Available
+Orion Telecom,Telecommunications,South Korea,2025,Waste,Waste Recycled,1,Available
+Orion Telecom,Telecommunications,South Korea,2025,Workforce / ESG,Employee Turnover,1,Available
+Orion Telecom,Telecommunications,South Korea,2025,Workforce / ESG,Workforce Training Hours,1,Available
+Summit Chemicals,Chemicals,United States,2024,Climate,Scope 1 Emissions,1,Available
+Summit Chemicals,Chemicals,United States,2024,Climate,Scope 2 Emissions,1,Available
+Summit Chemicals,Chemicals,United States,2024,Climate,Scope 3 Emissions,0,Missing
+Summit Chemicals,Chemicals,United States,2024,Energy,Energy Consumption,1,Available
+Summit Chemicals,Chemicals,United States,2024,Energy,Renewable Energy Consumption,1,Available
+Summit Chemicals,Chemicals,United States,2024,Climate Strategy,Emissions Reduction Target,1,Available
+Summit Chemicals,Chemicals,United States,2024,Climate Strategy,Net Zero Target,1,Available
+Summit Chemicals,Chemicals,United States,2024,Water,Water Consumption,1,Available
+Summit Chemicals,Chemicals,United States,2024,Waste,Waste Generated,1,Available
+Summit Chemicals,Chemicals,United States,2024,Waste,Waste Recycled,0,Missing
+Summit Chemicals,Chemicals,United States,2024,Workforce / ESG,Employee Turnover,1,Available
+Summit Chemicals,Chemicals,United States,2024,Workforce / ESG,Workforce Training Hours,0,Missing
+Summit Chemicals,Chemicals,United States,2025,Climate,Scope 1 Emissions,1,Available
+Summit Chemicals,Chemicals,United States,2025,Climate,Scope 2 Emissions,0,Missing
+Summit Chemicals,Chemicals,United States,2025,Climate,Scope 3 Emissions,1,Available
+Summit Chemicals,Chemicals,United States,2025,Energy,Energy Consumption,1,Available
+Summit Chemicals,Chemicals,United States,2025,Energy,Renewable Energy Consumption,1,Available
+Summit Chemicals,Chemicals,United States,2025,Climate Strategy,Emissions Reduction Target,1,Available
+Summit Chemicals,Chemicals,United States,2025,Climate Strategy,Net Zero Target,1,Available
+Summit Chemicals,Chemicals,United States,2025,Water,Water Consumption,1,Available
+Summit Chemicals,Chemicals,United States,2025,Waste,Waste Generated,1,Available
+Summit Chemicals,Chemicals,United States,2025,Waste,Waste Recycled,1,Available
+Summit Chemicals,Chemicals,United States,2025,Workforce / ESG,Employee Turnover,0,Missing
+Summit Chemicals,Chemicals,United States,2025,Workforce / ESG,Workforce Training Hours,1,Available
+TerraBuild Materials,Construction,Australia,2024,Climate,Scope 1 Emissions,1,Available
+TerraBuild Materials,Construction,Australia,2024,Climate,Scope 2 Emissions,0,Missing
+TerraBuild Materials,Construction,Australia,2024,Climate,Scope 3 Emissions,0,Missing
+TerraBuild Materials,Construction,Australia,2024,Energy,Energy Consumption,0,Missing
+TerraBuild Materials,Construction,Australia,2024,Energy,Renewable Energy Consumption,1,Available
+TerraBuild Materials,Construction,Australia,2024,Climate Strategy,Emissions Reduction Target,0,Missing
+TerraBuild Materials,Construction,Australia,2024,Climate Strategy,Net Zero Target,0,Missing
+TerraBuild Materials,Construction,Australia,2024,Water,Water Consumption,1,Available
+TerraBuild Materials,Construction,Australia,2024,Waste,Waste Generated,1,Available
+TerraBuild Materials,Construction,Australia,2024,Waste,Waste Recycled,1,Available
+TerraBuild Materials,Construction,Australia,2024,Workforce / ESG,Employee Turnover,1,Available
+TerraBuild Materials,Construction,Australia,2024,Workforce / ESG,Workforce Training Hours,1,Available
+TerraBuild Materials,Construction,Australia,2025,Climate,Scope 1 Emissions,1,Available
+TerraBuild Materials,Construction,Australia,2025,Climate,Scope 2 Emissions,1,Available
+TerraBuild Materials,Construction,Australia,2025,Climate,Scope 3 Emissions,1,Available
+TerraBuild Materials,Construction,Australia,2025,Energy,Energy Consumption,1,Available
+TerraBuild Materials,Construction,Australia,2025,Energy,Renewable Energy Consumption,1,Available
+TerraBuild Materials,Construction,Australia,2025,Climate Strategy,Emissions Reduction Target,1,Available
+TerraBuild Materials,Construction,Australia,2025,Climate Strategy,Net Zero Target,1,Available
+TerraBuild Materials,Construction,Australia,2025,Water,Water Consumption,1,Available
+TerraBuild Materials,Construction,Australia,2025,Waste,Waste Generated,0,Missing
+TerraBuild Materials,Construction,Australia,2025,Waste,Waste Recycled,0,Missing
+TerraBuild Materials,Construction,Australia,2025,Workforce / ESG,Employee Turnover,0,Missing
+TerraBuild Materials,Construction,Australia,2025,Workforce / ESG,Workforce Training Hours,1,Available
+UrbanCore Logistics,Logistics,United States,2024,Climate,Scope 1 Emissions,1,Available
+UrbanCore Logistics,Logistics,United States,2024,Climate,Scope 2 Emissions,1,Available
+UrbanCore Logistics,Logistics,United States,2024,Climate,Scope 3 Emissions,1,Available
+UrbanCore Logistics,Logistics,United States,2024,Energy,Energy Consumption,1,Available
+UrbanCore Logistics,Logistics,United States,2024,Energy,Renewable Energy Consumption,1,Available
+UrbanCore Logistics,Logistics,United States,2024,Climate Strategy,Emissions Reduction Target,0,Missing
+UrbanCore Logistics,Logistics,United States,2024,Climate Strategy,Net Zero Target,1,Available
+UrbanCore Logistics,Logistics,United States,2024,Water,Water Consumption,1,Available
+UrbanCore Logistics,Logistics,United States,2024,Waste,Waste Generated,0,Missing
+UrbanCore Logistics,Logistics,United States,2024,Waste,Waste Recycled,1,Available
+UrbanCore Logistics,Logistics,United States,2024,Workforce / ESG,Employee Turnover,1,Available
+UrbanCore Logistics,Logistics,United States,2024,Workforce / ESG,Workforce Training Hours,1,Available
+UrbanCore Logistics,Logistics,United States,2025,Climate,Scope 1 Emissions,0,Missing
+UrbanCore Logistics,Logistics,United States,2025,Climate,Scope 2 Emissions,0,Missing
+UrbanCore Logistics,Logistics,United States,2025,Climate,Scope 3 Emissions,1,Available
+UrbanCore Logistics,Logistics,United States,2025,Energy,Energy Consumption,1,Available
+UrbanCore Logistics,Logistics,United States,2025,Energy,Renewable Energy Consumption,1,Available
+UrbanCore Logistics,Logistics,United States,2025,Climate Strategy,Emissions Reduction Target,1,Available
+UrbanCore Logistics,Logistics,United States,2025,Climate Strategy,Net Zero Target,1,Available
+UrbanCore Logistics,Logistics,United States,2025,Water,Water Consumption,1,Available
+UrbanCore Logistics,Logistics,United States,2025,Waste,Waste Generated,1,Available
+UrbanCore Logistics,Logistics,United States,2025,Waste,Waste Recycled,1,Available
+UrbanCore Logistics,Logistics,United States,2025,Workforce / ESG,Employee Turnover,1,Available
+UrbanCore Logistics,Logistics,United States,2025,Workforce / ESG,Workforce Training Hours,1,Available
+Vertex Electronics,Technology,Japan,2024,Climate,Scope 1 Emissions,1,Available
+Vertex Electronics,Technology,Japan,2024,Climate,Scope 2 Emissions,0,Missing
+Vertex Electronics,Technology,Japan,2024,Climate,Scope 3 Emissions,0,Missing
+Vertex Electronics,Technology,Japan,2024,Energy,Energy Consumption,1,Available
+Vertex Electronics,Technology,Japan,2024,Energy,Renewable Energy Consumption,1,Available
+Vertex Electronics,Technology,Japan,2024,Climate Strategy,Emissions Reduction Target,1,Available
+Vertex Electronics,Technology,Japan,2024,Climate Strategy,Net Zero Target,1,Available
+Vertex Electronics,Technology,Japan,2024,Water,Water Consumption,1,Available
+Vertex Electronics,Technology,Japan,2024,Waste,Waste Generated,1,Available
+Vertex Electronics,Technology,Japan,2024,Waste,Waste Recycled,1,Available
+Vertex Electronics,Technology,Japan,2024,Workforce / ESG,Employee Turnover,1,Available
+Vertex Electronics,Technology,Japan,2024,Workforce / ESG,Workforce Training Hours,1,Available
+Vertex Electronics,Technology,Japan,2025,Climate,Scope 1 Emissions,1,Available
+Vertex Electronics,Technology,Japan,2025,Climate,Scope 2 Emissions,0,Missing
+Vertex Electronics,Technology,Japan,2025,Climate,Scope 3 Emissions,1,Available
+Vertex Electronics,Technology,Japan,2025,Energy,Energy Consumption,1,Available
+Vertex Electronics,Technology,Japan,2025,Energy,Renewable Energy Consumption,1,Available
+Vertex Electronics,Technology,Japan,2025,Climate Strategy,Emissions Reduction Target,0,Missing
+Vertex Electronics,Technology,Japan,2025,Climate Strategy,Net Zero Target,0,Missing
+Vertex Electronics,Technology,Japan,2025,Water,Water Consumption,0,Missing
+Vertex Electronics,Technology,Japan,2025,Waste,Waste Generated,1,Available
+Vertex Electronics,Technology,Japan,2025,Waste,Waste Recycled,0,Missing
+Vertex Electronics,Technology,Japan,2025,Workforce / ESG,Employee Turnover,1,Available
+Vertex Electronics,Technology,Japan,2025,Workforce / ESG,Workforce Training Hours,1,Available

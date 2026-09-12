@@ -1,0 +1,25 @@
+Company,Industry,Country,Reporting_Year,Readiness_Score,Regulatory_Coverage_Pct,Data_Quality_Score,Outstanding_Requirements,High_Risk_Gap_Count,Period_Date
+Apex Manufacturing,Manufacturing,India,2024,88.9,88.9,88.8,1,0,2024-12-31
+Apex Manufacturing,Manufacturing,India,2025,63.8,55.6,83.2,4,2,2025-12-31
+BluePeak Retail,Retail,France,2024,78.0,77.8,78.5,2,0,2024-12-31
+BluePeak Retail,Retail,France,2025,46.8,33.3,78.3,6,3,2025-12-31
+Crescent Finance,Financial Services,Singapore,2024,80.3,77.8,86.2,2,2,2024-12-31
+Crescent Finance,Financial Services,Singapore,2025,82.0,77.8,92.0,2,1,2025-12-31
+Everline Consumer Goods,Retail,Netherlands,2024,63.8,55.6,83.2,4,2,2024-12-31
+Everline Consumer Goods,Retail,Netherlands,2025,81.4,77.8,90.0,2,0,2025-12-31
+GreenGrid Energy,Energy,Germany,2024,65.1,55.6,87.5,4,1,2024-12-31
+GreenGrid Energy,Energy,Germany,2025,72.6,66.7,86.4,3,1,2025-12-31
+Northstar Foods,Retail,United Kingdom,2024,98.0,100.0,93.4,0,0,2024-12-31
+Northstar Foods,Retail,United Kingdom,2025,98.1,100.0,93.8,0,0,2025-12-31
+Nova Healthcare,Healthcare,Canada,2024,82.2,77.8,92.5,2,0,2024-12-31
+Nova Healthcare,Healthcare,Canada,2025,90.8,88.9,95.2,1,1,2025-12-31
+Orion Telecom,Telecommunications,South Korea,2024,82.0,77.8,92.0,2,1,2024-12-31
+Orion Telecom,Telecommunications,South Korea,2025,73.6,66.7,89.7,3,1,2025-12-31
+Summit Chemicals,Chemicals,United States,2024,89.5,88.9,90.8,1,1,2024-12-31
+Summit Chemicals,Chemicals,United States,2025,89.8,88.9,92.0,1,1,2025-12-31
+TerraBuild Materials,Construction,Australia,2024,56.3,44.4,83.9,5,2,2024-12-31
+TerraBuild Materials,Construction,Australia,2025,89.0,88.9,89.2,1,0,2025-12-31
+UrbanCore Logistics,Logistics,United States,2024,81.6,77.8,90.5,2,0,2024-12-31
+UrbanCore Logistics,Logistics,United States,2025,82.2,77.8,92.5,2,2,2025-12-31
+Vertex Electronics,Technology,Japan,2024,82.5,77.8,93.5,2,2,2024-12-31
+Vertex Electronics,Technology,Japan,2025,65.1,55.6,87.5,4,1,2025-12-31

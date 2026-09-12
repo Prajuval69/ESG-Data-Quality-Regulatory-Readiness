@@ -1,0 +1,217 @@
+Company,Industry,Country,Reporting_Year,Requirement_Area,Required_Data,Availability,Availability_Flag,Requirement_Count,Gap_Flag,Regulatory_Coverage_Pct,Data_Quality_Score,Readiness_Score,Gap,Priority,High_Risk_Gap_Count,Recommended_Action
+Apex Manufacturing,Manufacturing,India,2024,Scope 1,Scope 1 Emissions,Available,1,1,0,88.9,88.8,88.9,No gap,Low,0,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2024,Scope 2,Scope 2 Emissions,Available,1,1,0,88.9,88.8,88.9,No gap,Low,0,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2024,Scope 3,Scope 3 Emissions,Available,1,1,0,88.9,88.8,88.9,No gap,Low,0,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2024,Energy consumption,Energy Consumption,Available,1,1,0,88.9,88.8,88.9,No gap,Low,0,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,88.9,88.8,88.9,No gap,Low,0,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2024,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,88.9,88.8,88.9,No gap,Low,0,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2024,Net-zero target,Net Zero Target,Available,1,1,0,88.9,88.8,88.9,No gap,Low,0,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2024,Water,Water Consumption,Available,1,1,0,88.9,88.8,88.9,No gap,Low,0,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2024,Waste,Waste Generated,Missing,0,1,1,88.9,88.8,88.9,Gap identified,High,0,Close the data gap and validate supporting evidence.
+Apex Manufacturing,Manufacturing,India,2025,Scope 1,Scope 1 Emissions,Available,1,1,0,55.6,83.2,63.8,No gap,Low,2,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2025,Scope 2,Scope 2 Emissions,Missing,0,1,1,55.6,83.2,63.8,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+Apex Manufacturing,Manufacturing,India,2025,Scope 3,Scope 3 Emissions,Missing,0,1,1,55.6,83.2,63.8,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+Apex Manufacturing,Manufacturing,India,2025,Energy consumption,Energy Consumption,Available,1,1,0,55.6,83.2,63.8,No gap,Low,2,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2025,Renewable energy,Renewable Energy Consumption,Available,1,1,0,55.6,83.2,63.8,No gap,Low,2,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2025,Emissions reduction target,Emissions Reduction Target,Missing,0,1,1,55.6,83.2,63.8,Gap identified,High,2,Close the data gap and validate supporting evidence.
+Apex Manufacturing,Manufacturing,India,2025,Net-zero target,Net Zero Target,Available,1,1,0,55.6,83.2,63.8,No gap,Low,2,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2025,Water,Water Consumption,Available,1,1,0,55.6,83.2,63.8,No gap,Low,2,Maintain evidence and scheduled validation.
+Apex Manufacturing,Manufacturing,India,2025,Waste,Waste Generated,Missing,0,1,1,55.6,83.2,63.8,Gap identified,High,2,Close the data gap and validate supporting evidence.
+BluePeak Retail,Retail,France,2024,Scope 1,Scope 1 Emissions,Available,1,1,0,77.8,78.5,78.0,No gap,Low,0,Maintain evidence and scheduled validation.
+BluePeak Retail,Retail,France,2024,Scope 2,Scope 2 Emissions,Available,1,1,0,77.8,78.5,78.0,No gap,Low,0,Maintain evidence and scheduled validation.
+BluePeak Retail,Retail,France,2024,Scope 3,Scope 3 Emissions,Available,1,1,0,77.8,78.5,78.0,No gap,Low,0,Maintain evidence and scheduled validation.
+BluePeak Retail,Retail,France,2024,Energy consumption,Energy Consumption,Missing,0,1,1,77.8,78.5,78.0,Gap identified,High,0,Close the data gap and validate supporting evidence.
+BluePeak Retail,Retail,France,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,77.8,78.5,78.0,No gap,Low,0,Maintain evidence and scheduled validation.
+BluePeak Retail,Retail,France,2024,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,77.8,78.5,78.0,No gap,Low,0,Maintain evidence and scheduled validation.
+BluePeak Retail,Retail,France,2024,Net-zero target,Net Zero Target,Available,1,1,0,77.8,78.5,78.0,No gap,Low,0,Maintain evidence and scheduled validation.
+BluePeak Retail,Retail,France,2024,Water,Water Consumption,Available,1,1,0,77.8,78.5,78.0,No gap,Low,0,Maintain evidence and scheduled validation.
+BluePeak Retail,Retail,France,2024,Waste,Waste Generated,Missing,0,1,1,77.8,78.5,78.0,Gap identified,High,0,Close the data gap and validate supporting evidence.
+BluePeak Retail,Retail,France,2025,Scope 1,Scope 1 Emissions,Missing,0,1,1,33.3,78.3,46.8,Gap identified,Critical,3,Close the data gap and validate supporting evidence.
+BluePeak Retail,Retail,France,2025,Scope 2,Scope 2 Emissions,Missing,0,1,1,33.3,78.3,46.8,Gap identified,Critical,3,Close the data gap and validate supporting evidence.
+BluePeak Retail,Retail,France,2025,Scope 3,Scope 3 Emissions,Missing,0,1,1,33.3,78.3,46.8,Gap identified,Critical,3,Close the data gap and validate supporting evidence.
+BluePeak Retail,Retail,France,2025,Energy consumption,Energy Consumption,Missing,0,1,1,33.3,78.3,46.8,Gap identified,High,3,Close the data gap and validate supporting evidence.
+BluePeak Retail,Retail,France,2025,Renewable energy,Renewable Energy Consumption,Missing,0,1,1,33.3,78.3,46.8,Gap identified,High,3,Close the data gap and validate supporting evidence.
+BluePeak Retail,Retail,France,2025,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,33.3,78.3,46.8,No gap,Low,3,Maintain evidence and scheduled validation.
+BluePeak Retail,Retail,France,2025,Net-zero target,Net Zero Target,Available,1,1,0,33.3,78.3,46.8,No gap,Low,3,Maintain evidence and scheduled validation.
+BluePeak Retail,Retail,France,2025,Water,Water Consumption,Missing,0,1,1,33.3,78.3,46.8,Gap identified,High,3,Close the data gap and validate supporting evidence.
+BluePeak Retail,Retail,France,2025,Waste,Waste Generated,Available,1,1,0,33.3,78.3,46.8,No gap,Low,3,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2024,Scope 1,Scope 1 Emissions,Available,1,1,0,77.8,86.2,80.3,No gap,Low,2,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2024,Scope 2,Scope 2 Emissions,Missing,0,1,1,77.8,86.2,80.3,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+Crescent Finance,Financial Services,Singapore,2024,Scope 3,Scope 3 Emissions,Missing,0,1,1,77.8,86.2,80.3,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+Crescent Finance,Financial Services,Singapore,2024,Energy consumption,Energy Consumption,Available,1,1,0,77.8,86.2,80.3,No gap,Low,2,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,77.8,86.2,80.3,No gap,Low,2,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2024,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,77.8,86.2,80.3,No gap,Low,2,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2024,Net-zero target,Net Zero Target,Available,1,1,0,77.8,86.2,80.3,No gap,Low,2,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2024,Water,Water Consumption,Available,1,1,0,77.8,86.2,80.3,No gap,Low,2,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2024,Waste,Waste Generated,Available,1,1,0,77.8,86.2,80.3,No gap,Low,2,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2025,Scope 1,Scope 1 Emissions,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2025,Scope 2,Scope 2 Emissions,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2025,Scope 3,Scope 3 Emissions,Missing,0,1,1,77.8,92.0,82.0,Gap identified,Critical,1,Close the data gap and validate supporting evidence.
+Crescent Finance,Financial Services,Singapore,2025,Energy consumption,Energy Consumption,Missing,0,1,1,77.8,92.0,82.0,Gap identified,High,1,Close the data gap and validate supporting evidence.
+Crescent Finance,Financial Services,Singapore,2025,Renewable energy,Renewable Energy Consumption,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2025,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2025,Net-zero target,Net Zero Target,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2025,Water,Water Consumption,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Crescent Finance,Financial Services,Singapore,2025,Waste,Waste Generated,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2024,Scope 1,Scope 1 Emissions,Missing,0,1,1,55.6,83.2,63.8,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+Everline Consumer Goods,Retail,Netherlands,2024,Scope 2,Scope 2 Emissions,Available,1,1,0,55.6,83.2,63.8,No gap,Low,2,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2024,Scope 3,Scope 3 Emissions,Missing,0,1,1,55.6,83.2,63.8,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+Everline Consumer Goods,Retail,Netherlands,2024,Energy consumption,Energy Consumption,Available,1,1,0,55.6,83.2,63.8,No gap,Low,2,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,55.6,83.2,63.8,No gap,Low,2,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2024,Emissions reduction target,Emissions Reduction Target,Missing,0,1,1,55.6,83.2,63.8,Gap identified,High,2,Close the data gap and validate supporting evidence.
+Everline Consumer Goods,Retail,Netherlands,2024,Net-zero target,Net Zero Target,Available,1,1,0,55.6,83.2,63.8,No gap,Low,2,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2024,Water,Water Consumption,Available,1,1,0,55.6,83.2,63.8,No gap,Low,2,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2024,Waste,Waste Generated,Missing,0,1,1,55.6,83.2,63.8,Gap identified,High,2,Close the data gap and validate supporting evidence.
+Everline Consumer Goods,Retail,Netherlands,2025,Scope 1,Scope 1 Emissions,Available,1,1,0,77.8,90.0,81.4,No gap,Low,0,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2025,Scope 2,Scope 2 Emissions,Available,1,1,0,77.8,90.0,81.4,No gap,Low,0,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2025,Scope 3,Scope 3 Emissions,Available,1,1,0,77.8,90.0,81.4,No gap,Low,0,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2025,Energy consumption,Energy Consumption,Available,1,1,0,77.8,90.0,81.4,No gap,Low,0,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2025,Renewable energy,Renewable Energy Consumption,Available,1,1,0,77.8,90.0,81.4,No gap,Low,0,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2025,Emissions reduction target,Emissions Reduction Target,Missing,0,1,1,77.8,90.0,81.4,Gap identified,High,0,Close the data gap and validate supporting evidence.
+Everline Consumer Goods,Retail,Netherlands,2025,Net-zero target,Net Zero Target,Missing,0,1,1,77.8,90.0,81.4,Gap identified,High,0,Close the data gap and validate supporting evidence.
+Everline Consumer Goods,Retail,Netherlands,2025,Water,Water Consumption,Available,1,1,0,77.8,90.0,81.4,No gap,Low,0,Maintain evidence and scheduled validation.
+Everline Consumer Goods,Retail,Netherlands,2025,Waste,Waste Generated,Available,1,1,0,77.8,90.0,81.4,No gap,Low,0,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2024,Scope 1,Scope 1 Emissions,Available,1,1,0,55.6,87.5,65.1,No gap,Low,1,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2024,Scope 2,Scope 2 Emissions,Missing,0,1,1,55.6,87.5,65.1,Gap identified,Critical,1,Close the data gap and validate supporting evidence.
+GreenGrid Energy,Energy,Germany,2024,Scope 3,Scope 3 Emissions,Available,1,1,0,55.6,87.5,65.1,No gap,Low,1,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2024,Energy consumption,Energy Consumption,Missing,0,1,1,55.6,87.5,65.1,Gap identified,High,1,Close the data gap and validate supporting evidence.
+GreenGrid Energy,Energy,Germany,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,55.6,87.5,65.1,No gap,Low,1,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2024,Emissions reduction target,Emissions Reduction Target,Missing,0,1,1,55.6,87.5,65.1,Gap identified,High,1,Close the data gap and validate supporting evidence.
+GreenGrid Energy,Energy,Germany,2024,Net-zero target,Net Zero Target,Available,1,1,0,55.6,87.5,65.1,No gap,Low,1,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2024,Water,Water Consumption,Missing,0,1,1,55.6,87.5,65.1,Gap identified,High,1,Close the data gap and validate supporting evidence.
+GreenGrid Energy,Energy,Germany,2024,Waste,Waste Generated,Available,1,1,0,55.6,87.5,65.1,No gap,Low,1,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2025,Scope 1,Scope 1 Emissions,Missing,0,1,1,66.7,86.4,72.6,Gap identified,Critical,1,Close the data gap and validate supporting evidence.
+GreenGrid Energy,Energy,Germany,2025,Scope 2,Scope 2 Emissions,Available,1,1,0,66.7,86.4,72.6,No gap,Low,1,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2025,Scope 3,Scope 3 Emissions,Available,1,1,0,66.7,86.4,72.6,No gap,Low,1,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2025,Energy consumption,Energy Consumption,Available,1,1,0,66.7,86.4,72.6,No gap,Low,1,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2025,Renewable energy,Renewable Energy Consumption,Missing,0,1,1,66.7,86.4,72.6,Gap identified,High,1,Close the data gap and validate supporting evidence.
+GreenGrid Energy,Energy,Germany,2025,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,66.7,86.4,72.6,No gap,Low,1,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2025,Net-zero target,Net Zero Target,Available,1,1,0,66.7,86.4,72.6,No gap,Low,1,Maintain evidence and scheduled validation.
+GreenGrid Energy,Energy,Germany,2025,Water,Water Consumption,Missing,0,1,1,66.7,86.4,72.6,Gap identified,High,1,Close the data gap and validate supporting evidence.
+GreenGrid Energy,Energy,Germany,2025,Waste,Waste Generated,Available,1,1,0,66.7,86.4,72.6,No gap,Low,1,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2024,Scope 1,Scope 1 Emissions,Available,1,1,0,100.0,93.4,98.0,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2024,Scope 2,Scope 2 Emissions,Available,1,1,0,100.0,93.4,98.0,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2024,Scope 3,Scope 3 Emissions,Available,1,1,0,100.0,93.4,98.0,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2024,Energy consumption,Energy Consumption,Available,1,1,0,100.0,93.4,98.0,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,100.0,93.4,98.0,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2024,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,100.0,93.4,98.0,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2024,Net-zero target,Net Zero Target,Available,1,1,0,100.0,93.4,98.0,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2024,Water,Water Consumption,Available,1,1,0,100.0,93.4,98.0,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2024,Waste,Waste Generated,Available,1,1,0,100.0,93.4,98.0,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2025,Scope 1,Scope 1 Emissions,Available,1,1,0,100.0,93.8,98.1,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2025,Scope 2,Scope 2 Emissions,Available,1,1,0,100.0,93.8,98.1,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2025,Scope 3,Scope 3 Emissions,Available,1,1,0,100.0,93.8,98.1,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2025,Energy consumption,Energy Consumption,Available,1,1,0,100.0,93.8,98.1,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2025,Renewable energy,Renewable Energy Consumption,Available,1,1,0,100.0,93.8,98.1,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2025,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,100.0,93.8,98.1,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2025,Net-zero target,Net Zero Target,Available,1,1,0,100.0,93.8,98.1,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2025,Water,Water Consumption,Available,1,1,0,100.0,93.8,98.1,No gap,Low,0,Maintain evidence and scheduled validation.
+Northstar Foods,Retail,United Kingdom,2025,Waste,Waste Generated,Available,1,1,0,100.0,93.8,98.1,No gap,Low,0,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2024,Scope 1,Scope 1 Emissions,Available,1,1,0,77.8,92.5,82.2,No gap,Low,0,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2024,Scope 2,Scope 2 Emissions,Available,1,1,0,77.8,92.5,82.2,No gap,Low,0,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2024,Scope 3,Scope 3 Emissions,Available,1,1,0,77.8,92.5,82.2,No gap,Low,0,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2024,Energy consumption,Energy Consumption,Available,1,1,0,77.8,92.5,82.2,No gap,Low,0,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2024,Renewable energy,Renewable Energy Consumption,Missing,0,1,1,77.8,92.5,82.2,Gap identified,High,0,Close the data gap and validate supporting evidence.
+Nova Healthcare,Healthcare,Canada,2024,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,77.8,92.5,82.2,No gap,Low,0,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2024,Net-zero target,Net Zero Target,Available,1,1,0,77.8,92.5,82.2,No gap,Low,0,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2024,Water,Water Consumption,Missing,0,1,1,77.8,92.5,82.2,Gap identified,High,0,Close the data gap and validate supporting evidence.
+Nova Healthcare,Healthcare,Canada,2024,Waste,Waste Generated,Available,1,1,0,77.8,92.5,82.2,No gap,Low,0,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2025,Scope 1,Scope 1 Emissions,Missing,0,1,1,88.9,95.2,90.8,Gap identified,Critical,1,Close the data gap and validate supporting evidence.
+Nova Healthcare,Healthcare,Canada,2025,Scope 2,Scope 2 Emissions,Available,1,1,0,88.9,95.2,90.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2025,Scope 3,Scope 3 Emissions,Available,1,1,0,88.9,95.2,90.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2025,Energy consumption,Energy Consumption,Available,1,1,0,88.9,95.2,90.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2025,Renewable energy,Renewable Energy Consumption,Available,1,1,0,88.9,95.2,90.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2025,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,88.9,95.2,90.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2025,Net-zero target,Net Zero Target,Available,1,1,0,88.9,95.2,90.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2025,Water,Water Consumption,Available,1,1,0,88.9,95.2,90.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Nova Healthcare,Healthcare,Canada,2025,Waste,Waste Generated,Available,1,1,0,88.9,95.2,90.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2024,Scope 1,Scope 1 Emissions,Missing,0,1,1,77.8,92.0,82.0,Gap identified,Critical,1,Close the data gap and validate supporting evidence.
+Orion Telecom,Telecommunications,South Korea,2024,Scope 2,Scope 2 Emissions,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2024,Scope 3,Scope 3 Emissions,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2024,Energy consumption,Energy Consumption,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2024,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2024,Net-zero target,Net Zero Target,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2024,Water,Water Consumption,Missing,0,1,1,77.8,92.0,82.0,Gap identified,High,1,Close the data gap and validate supporting evidence.
+Orion Telecom,Telecommunications,South Korea,2024,Waste,Waste Generated,Available,1,1,0,77.8,92.0,82.0,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2025,Scope 1,Scope 1 Emissions,Available,1,1,0,66.7,89.7,73.6,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2025,Scope 2,Scope 2 Emissions,Missing,0,1,1,66.7,89.7,73.6,Gap identified,Critical,1,Close the data gap and validate supporting evidence.
+Orion Telecom,Telecommunications,South Korea,2025,Scope 3,Scope 3 Emissions,Available,1,1,0,66.7,89.7,73.6,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2025,Energy consumption,Energy Consumption,Available,1,1,0,66.7,89.7,73.6,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2025,Renewable energy,Renewable Energy Consumption,Missing,0,1,1,66.7,89.7,73.6,Gap identified,High,1,Close the data gap and validate supporting evidence.
+Orion Telecom,Telecommunications,South Korea,2025,Emissions reduction target,Emissions Reduction Target,Missing,0,1,1,66.7,89.7,73.6,Gap identified,High,1,Close the data gap and validate supporting evidence.
+Orion Telecom,Telecommunications,South Korea,2025,Net-zero target,Net Zero Target,Available,1,1,0,66.7,89.7,73.6,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2025,Water,Water Consumption,Available,1,1,0,66.7,89.7,73.6,No gap,Low,1,Maintain evidence and scheduled validation.
+Orion Telecom,Telecommunications,South Korea,2025,Waste,Waste Generated,Available,1,1,0,66.7,89.7,73.6,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2024,Scope 1,Scope 1 Emissions,Available,1,1,0,88.9,90.8,89.5,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2024,Scope 2,Scope 2 Emissions,Available,1,1,0,88.9,90.8,89.5,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2024,Scope 3,Scope 3 Emissions,Missing,0,1,1,88.9,90.8,89.5,Gap identified,Critical,1,Close the data gap and validate supporting evidence.
+Summit Chemicals,Chemicals,United States,2024,Energy consumption,Energy Consumption,Available,1,1,0,88.9,90.8,89.5,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,88.9,90.8,89.5,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2024,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,88.9,90.8,89.5,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2024,Net-zero target,Net Zero Target,Available,1,1,0,88.9,90.8,89.5,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2024,Water,Water Consumption,Available,1,1,0,88.9,90.8,89.5,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2024,Waste,Waste Generated,Available,1,1,0,88.9,90.8,89.5,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2025,Scope 1,Scope 1 Emissions,Available,1,1,0,88.9,92.0,89.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2025,Scope 2,Scope 2 Emissions,Missing,0,1,1,88.9,92.0,89.8,Gap identified,Critical,1,Close the data gap and validate supporting evidence.
+Summit Chemicals,Chemicals,United States,2025,Scope 3,Scope 3 Emissions,Available,1,1,0,88.9,92.0,89.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2025,Energy consumption,Energy Consumption,Available,1,1,0,88.9,92.0,89.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2025,Renewable energy,Renewable Energy Consumption,Available,1,1,0,88.9,92.0,89.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2025,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,88.9,92.0,89.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2025,Net-zero target,Net Zero Target,Available,1,1,0,88.9,92.0,89.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2025,Water,Water Consumption,Available,1,1,0,88.9,92.0,89.8,No gap,Low,1,Maintain evidence and scheduled validation.
+Summit Chemicals,Chemicals,United States,2025,Waste,Waste Generated,Available,1,1,0,88.9,92.0,89.8,No gap,Low,1,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2024,Scope 1,Scope 1 Emissions,Available,1,1,0,44.4,83.9,56.3,No gap,Low,2,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2024,Scope 2,Scope 2 Emissions,Missing,0,1,1,44.4,83.9,56.3,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+TerraBuild Materials,Construction,Australia,2024,Scope 3,Scope 3 Emissions,Missing,0,1,1,44.4,83.9,56.3,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+TerraBuild Materials,Construction,Australia,2024,Energy consumption,Energy Consumption,Missing,0,1,1,44.4,83.9,56.3,Gap identified,High,2,Close the data gap and validate supporting evidence.
+TerraBuild Materials,Construction,Australia,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,44.4,83.9,56.3,No gap,Low,2,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2024,Emissions reduction target,Emissions Reduction Target,Missing,0,1,1,44.4,83.9,56.3,Gap identified,High,2,Close the data gap and validate supporting evidence.
+TerraBuild Materials,Construction,Australia,2024,Net-zero target,Net Zero Target,Missing,0,1,1,44.4,83.9,56.3,Gap identified,High,2,Close the data gap and validate supporting evidence.
+TerraBuild Materials,Construction,Australia,2024,Water,Water Consumption,Available,1,1,0,44.4,83.9,56.3,No gap,Low,2,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2024,Waste,Waste Generated,Available,1,1,0,44.4,83.9,56.3,No gap,Low,2,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2025,Scope 1,Scope 1 Emissions,Available,1,1,0,88.9,89.2,89.0,No gap,Low,0,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2025,Scope 2,Scope 2 Emissions,Available,1,1,0,88.9,89.2,89.0,No gap,Low,0,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2025,Scope 3,Scope 3 Emissions,Available,1,1,0,88.9,89.2,89.0,No gap,Low,0,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2025,Energy consumption,Energy Consumption,Available,1,1,0,88.9,89.2,89.0,No gap,Low,0,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2025,Renewable energy,Renewable Energy Consumption,Available,1,1,0,88.9,89.2,89.0,No gap,Low,0,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2025,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,88.9,89.2,89.0,No gap,Low,0,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2025,Net-zero target,Net Zero Target,Available,1,1,0,88.9,89.2,89.0,No gap,Low,0,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2025,Water,Water Consumption,Available,1,1,0,88.9,89.2,89.0,No gap,Low,0,Maintain evidence and scheduled validation.
+TerraBuild Materials,Construction,Australia,2025,Waste,Waste Generated,Missing,0,1,1,88.9,89.2,89.0,Gap identified,High,0,Close the data gap and validate supporting evidence.
+UrbanCore Logistics,Logistics,United States,2024,Scope 1,Scope 1 Emissions,Available,1,1,0,77.8,90.5,81.6,No gap,Low,0,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2024,Scope 2,Scope 2 Emissions,Available,1,1,0,77.8,90.5,81.6,No gap,Low,0,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2024,Scope 3,Scope 3 Emissions,Available,1,1,0,77.8,90.5,81.6,No gap,Low,0,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2024,Energy consumption,Energy Consumption,Available,1,1,0,77.8,90.5,81.6,No gap,Low,0,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,77.8,90.5,81.6,No gap,Low,0,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2024,Emissions reduction target,Emissions Reduction Target,Missing,0,1,1,77.8,90.5,81.6,Gap identified,High,0,Close the data gap and validate supporting evidence.
+UrbanCore Logistics,Logistics,United States,2024,Net-zero target,Net Zero Target,Available,1,1,0,77.8,90.5,81.6,No gap,Low,0,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2024,Water,Water Consumption,Available,1,1,0,77.8,90.5,81.6,No gap,Low,0,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2024,Waste,Waste Generated,Missing,0,1,1,77.8,90.5,81.6,Gap identified,High,0,Close the data gap and validate supporting evidence.
+UrbanCore Logistics,Logistics,United States,2025,Scope 1,Scope 1 Emissions,Missing,0,1,1,77.8,92.5,82.2,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+UrbanCore Logistics,Logistics,United States,2025,Scope 2,Scope 2 Emissions,Missing,0,1,1,77.8,92.5,82.2,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+UrbanCore Logistics,Logistics,United States,2025,Scope 3,Scope 3 Emissions,Available,1,1,0,77.8,92.5,82.2,No gap,Low,2,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2025,Energy consumption,Energy Consumption,Available,1,1,0,77.8,92.5,82.2,No gap,Low,2,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2025,Renewable energy,Renewable Energy Consumption,Available,1,1,0,77.8,92.5,82.2,No gap,Low,2,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2025,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,77.8,92.5,82.2,No gap,Low,2,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2025,Net-zero target,Net Zero Target,Available,1,1,0,77.8,92.5,82.2,No gap,Low,2,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2025,Water,Water Consumption,Available,1,1,0,77.8,92.5,82.2,No gap,Low,2,Maintain evidence and scheduled validation.
+UrbanCore Logistics,Logistics,United States,2025,Waste,Waste Generated,Available,1,1,0,77.8,92.5,82.2,No gap,Low,2,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2024,Scope 1,Scope 1 Emissions,Available,1,1,0,77.8,93.5,82.5,No gap,Low,2,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2024,Scope 2,Scope 2 Emissions,Missing,0,1,1,77.8,93.5,82.5,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+Vertex Electronics,Technology,Japan,2024,Scope 3,Scope 3 Emissions,Missing,0,1,1,77.8,93.5,82.5,Gap identified,Critical,2,Close the data gap and validate supporting evidence.
+Vertex Electronics,Technology,Japan,2024,Energy consumption,Energy Consumption,Available,1,1,0,77.8,93.5,82.5,No gap,Low,2,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2024,Renewable energy,Renewable Energy Consumption,Available,1,1,0,77.8,93.5,82.5,No gap,Low,2,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2024,Emissions reduction target,Emissions Reduction Target,Available,1,1,0,77.8,93.5,82.5,No gap,Low,2,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2024,Net-zero target,Net Zero Target,Available,1,1,0,77.8,93.5,82.5,No gap,Low,2,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2024,Water,Water Consumption,Available,1,1,0,77.8,93.5,82.5,No gap,Low,2,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2024,Waste,Waste Generated,Available,1,1,0,77.8,93.5,82.5,No gap,Low,2,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2025,Scope 1,Scope 1 Emissions,Available,1,1,0,55.6,87.5,65.1,No gap,Low,1,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2025,Scope 2,Scope 2 Emissions,Missing,0,1,1,55.6,87.5,65.1,Gap identified,Critical,1,Close the data gap and validate supporting evidence.
+Vertex Electronics,Technology,Japan,2025,Scope 3,Scope 3 Emissions,Available,1,1,0,55.6,87.5,65.1,No gap,Low,1,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2025,Energy consumption,Energy Consumption,Available,1,1,0,55.6,87.5,65.1,No gap,Low,1,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2025,Renewable energy,Renewable Energy Consumption,Available,1,1,0,55.6,87.5,65.1,No gap,Low,1,Maintain evidence and scheduled validation.
+Vertex Electronics,Technology,Japan,2025,Emissions reduction target,Emissions Reduction Target,Missing,0,1,1,55.6,87.5,65.1,Gap identified,High,1,Close the data gap and validate supporting evidence.
+Vertex Electronics,Technology,Japan,2025,Net-zero target,Net Zero Target,Missing,0,1,1,55.6,87.5,65.1,Gap identified,High,1,Close the data gap and validate supporting evidence.
+Vertex Electronics,Technology,Japan,2025,Water,Water Consumption,Missing,0,1,1,55.6,87.5,65.1,Gap identified,High,1,Close the data gap and validate supporting evidence.
+Vertex Electronics,Technology,Japan,2025,Waste,Waste Generated,Available,1,1,0,55.6,87.5,65.1,No gap,Low,1,Maintain evidence and scheduled validation.

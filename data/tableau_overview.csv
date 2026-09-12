@@ -1,0 +1,25 @@
+Company,Industry,Country,Reporting_Year,Total_Records,Valid_Records,Record_Pass_Rate,Completeness_Pct,Validity_Pct,Consistency_Pct,Traceability_Pct,Data_Quality_Score,Exception_Count,High_Critical_Exception_Count,Period_Date
+Apex Manufacturing,Manufacturing,India,2024,12,8,66.7,91.7,91.7,75.0,100.0,88.8,4,1,2024-12-31
+Apex Manufacturing,Manufacturing,India,2025,7,6,85.7,58.3,85.7,100.0,100.0,83.2,1,0,2025-12-31
+BluePeak Retail,Retail,France,2024,10,5,50.0,83.3,70.0,70.0,100.0,78.5,6,3,2024-12-31
+BluePeak Retail,Retail,France,2025,6,4,66.7,50.0,100.0,83.3,83.3,78.3,2,0,2025-12-31
+Crescent Finance,Financial Services,Singapore,2024,8,7,87.5,66.7,87.5,100.0,100.0,86.2,1,0,2024-12-31
+Crescent Finance,Financial Services,Singapore,2025,10,9,90.0,83.3,90.0,100.0,100.0,92.0,1,0,2025-12-31
+Everline Consumer Goods,Retail,Netherlands,2024,7,6,85.7,58.3,85.7,100.0,100.0,83.2,1,1,2024-12-31
+Everline Consumer Goods,Retail,Netherlands,2025,8,8,100.0,66.7,100.0,100.0,100.0,90.0,0,0,2025-12-31
+GreenGrid Energy,Energy,Germany,2024,7,7,100.0,58.3,100.0,100.0,100.0,87.5,0,0,2024-12-31
+GreenGrid Energy,Energy,Germany,2025,9,8,88.9,75.0,88.9,88.9,100.0,86.4,2,1,2025-12-31
+Northstar Foods,Retail,United Kingdom,2024,11,9,81.8,91.7,90.9,100.0,90.9,93.4,2,1,2024-12-31
+Northstar Foods,Retail,United Kingdom,2025,13,10,76.9,100.0,92.3,84.6,100.0,93.8,3,0,2025-12-31
+Nova Healthcare,Healthcare,Canada,2024,10,9,90.0,83.3,100.0,90.0,100.0,92.5,1,0,2024-12-31
+Nova Healthcare,Healthcare,Canada,2025,11,10,90.9,91.7,100.0,90.9,100.0,95.2,1,0,2025-12-31
+Orion Telecom,Telecommunications,South Korea,2024,10,9,90.0,83.3,90.0,100.0,100.0,92.0,1,1,2024-12-31
+Orion Telecom,Telecommunications,South Korea,2025,9,8,88.9,75.0,100.0,88.9,100.0,89.7,1,0,2025-12-31
+Summit Chemicals,Chemicals,United States,2024,9,8,88.9,75.0,100.0,100.0,88.9,90.8,1,0,2024-12-31
+Summit Chemicals,Chemicals,United States,2025,10,9,90.0,83.3,90.0,100.0,100.0,92.0,1,0,2025-12-31
+TerraBuild Materials,Construction,Australia,2024,7,6,85.7,58.3,100.0,85.7,100.0,83.9,1,0,2024-12-31
+TerraBuild Materials,Construction,Australia,2025,9,8,88.9,75.0,88.9,100.0,100.0,89.2,1,1,2025-12-31
+UrbanCore Logistics,Logistics,United States,2024,11,9,81.8,83.3,100.0,81.8,100.0,90.5,2,0,2024-12-31
+UrbanCore Logistics,Logistics,United States,2025,10,9,90.0,83.3,100.0,90.0,100.0,92.5,1,0,2025-12-31
+Vertex Electronics,Technology,Japan,2024,10,9,90.0,83.3,100.0,100.0,90.0,93.5,1,0,2024-12-31
+Vertex Electronics,Technology,Japan,2025,7,7,100.0,58.3,100.0,100.0,100.0,87.5,0,0,2025-12-31

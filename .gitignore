@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.temp
+*.log
+.env
+.env.*
+!.env.example
+tableau/.build/
